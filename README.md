@@ -17,7 +17,8 @@ S.O.S. is an experimental AI system designed to automate prompt generation and e
 ## Installation
 ### Clone the repository:
 ```bash
-git clone https://github.com/your-username/sos-project.git
+git clone git@github.com:ArmanRo/Self-Organizing-Prompt-Optimization.git 
+git clone https://github.com/ArmanRo/Self-Organizing-Prompt-Optimization.git
 ```
 ### Navigate into the project directory:
 ```bash
