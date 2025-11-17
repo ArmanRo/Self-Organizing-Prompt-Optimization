@@ -22,7 +22,7 @@ class GeneticAlgorithm:
 
 
     @staticmethod
-    def save_prompts_to_json(prompts: list[str], filename: str = "initial_prompts.json") -> None:
+    def save_prompts_to_json(prompts, filename: str = "initial_prompts.json") -> None:
         with open(filename, "w", encoding="utf-8") as f:
             json.dump(prompts, f, ensure_ascii=False, indent=4)
 
@@ -36,9 +36,11 @@ class GeneticAlgorithm:
 
     def evaluate_population(self, population: PromptPopulation, n_samples=2, n_judgments=2):
         final_scores = []
+        evaluation_details = []
 
         for candidate in population.prompts:
             prompt_text = candidate.text
+            prompt_responses = []
             all_scores = []
 
             for _ in range(n_samples):
@@ -53,11 +55,25 @@ class GeneticAlgorithm:
                     )
                     scores_for_answer.append(score)
 
-                all_scores.append(statistics.mean(scores_for_answer))
+                avg_answer_score = statistics.mean(scores_for_answer)
+                all_scores.append(avg_answer_score)
 
-            final_scores.append(statistics.mean(all_scores))
+                prompt_responses.append({
+                    "response": answer,
+                    "scores": scores_for_answer,
+                    "average_score": avg_answer_score
+                })
 
-        return final_scores
+            final_score = statistics.mean(all_scores)
+            final_scores.append(final_score)
+
+            evaluation_details.append({
+                "prompt": prompt_text,
+                "responses": prompt_responses,
+                "final_score": final_score
+            })
+
+        return final_scores, evaluation_details
 
 
     def run(self):
@@ -65,11 +81,14 @@ class GeneticAlgorithm:
         population = PromptPopulation(initial_prompts, self.llm)
 
         for gen in range(self.max_generations):
-            scores = self.evaluate_population(
+            scores, evaluation_details = self.evaluate_population(
                 population,
                 n_samples=2,
                 n_judgments=2
             )
+
+            filename = f"gen_{gen}.json"
+            self.save_prompts_to_json(evaluation_details, filename)
 
             population.sort(scores)
             population.generate_next_population()
