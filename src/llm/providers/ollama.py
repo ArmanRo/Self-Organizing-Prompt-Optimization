@@ -11,8 +11,10 @@ class OllamaProvider(BaseLLMProvider):
         ), "`model` argument can either be `mistral` or `ollama`"
         self.model = model
 
-    def generate(self, prompt):
+    def generate(self, prompt: str, max_tokens: int = None):
         data = {"model": "mistral:7b-instruct-q4_K_M", "prompt": prompt, "stream": False, "num_thread": 4}
+        if max_tokens is not None:
+            data["max_tokens"] = max_tokens
         response = requests.post("http://localhost:11434/api/generate", json=data)
         response.raise_for_status()
         return response.json().get("response", "")

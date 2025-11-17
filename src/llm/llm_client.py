@@ -15,8 +15,8 @@ class LLMClient(BaseLLMProvider):
         else:
             raise ValueError(f"Fournisseur inconnu : {provider}")
 
-    def generate(self, prompt: str) -> str:
-        return self.provider.generate(prompt)
+    def generate(self, prompt: str, max_tokens: int = None) -> str:
+        return self.provider.generate(prompt, max_tokens)
     
     def generate_prompts(self, prompt: str, amount: int) -> list[str]:
         return self.provider.generate_prompts(prompt, amount)

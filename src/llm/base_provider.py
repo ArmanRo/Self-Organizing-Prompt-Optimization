@@ -3,7 +3,7 @@ from abc import ABC, abstractmethod
 
 class BaseLLMProvider(ABC):
     @abstractmethod
-    def generate(self, prompt: str) -> str:
+    def generate(self, prompt: str, max_tokes: int = None) -> str:
         pass
 
     @abstractmethod
