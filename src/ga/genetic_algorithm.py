@@ -8,7 +8,7 @@ from .prompt_population import PromptPopulation
 
 
 class GeneticAlgorithm:
-    def __init__(self, llm_provider, question, prompts_amount, evaluation_criteria, evaluator, max_generations):
+    def __init__(self, llm_provider: str, question: str, prompts_amount: int, evaluation_criteria, evaluator: str, max_generations: int):
         self.llm = LLMClient(provider=llm_provider)
         self.question = question
         self.prompts_amount = prompts_amount
@@ -78,7 +78,7 @@ class GeneticAlgorithm:
 
     def run(self):
         initial_prompts = self.generate_initial_prompts()
-        population = PromptPopulation(initial_prompts, self.llm)
+        population = PromptPopulation(initial_prompts, self.question, self.llm)
 
         for gen in range(self.max_generations):
             scores, evaluation_details = self.evaluate_population(

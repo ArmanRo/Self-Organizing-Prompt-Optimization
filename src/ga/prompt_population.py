@@ -5,11 +5,12 @@ from llm.llm_client import LLMClient
 
 
 class PromptPopulation:
-    def __init__(self, prompts, llm: LLMClient = None):
+    def __init__(self, prompts, question: str, llm: LLMClient = None):
         self.prompts = [
             p if isinstance(p, PromptCandidate) else PromptCandidate(p)
             for p in prompts
         ]
+        self.question = question
         self.llm = llm
 
 
@@ -23,28 +24,37 @@ class PromptPopulation:
     def improve_prompt(self, prompt: str) -> str:
         system_msg = (
             "You are a prompt optimizer. "
-            "Given a prompt, you generate a slightly improved version of it. "
+            "Given a prompt, generate a slightly improved version of it. "
             "Your modifications must be small, preserve the original intent, "
             "and increase clarity, precision, or usefulness. "
-            "Never change the topic. Never invent new sub-tasks."
+            "Always stay focused on the main topic defined by the user question. "
+            "Never invent new sub-tasks."
         )
 
-        user_msg = f"Here is the prompt to improve:\n\n{prompt}"
+        user_msg = (
+            f"User's main question: {self.question}\n"
+            f"Prompt to improve:\n{prompt}"
+        )
 
-        return self.llm.generate(system_msg + user_msg)
+        return self.llm.generate(system_msg + "\n\n" + user_msg)
 
 
     def mutate_prompt(self, prompt: str) -> str:
         system_msg = (
             "You are a mutation operator for a genetic algorithm. "
-            "You only apply a *small local mutation* to the prompt: "
+            "Apply only a *small local mutation* to the prompt: "
             "replace a word, rephrase a clause, or add minor clarification. "
-            "Keep the meaning and structure unchanged."
+            "Keep the meaning and structure unchanged. "
+            "Always ensure the mutated prompt remains closely related to the main user question."
         )
 
-        user_msg = f"Mutate this prompt:\n{prompt}"
+        user_msg = (
+            f"User's main question: {self.question}\n"
+            f"Prompt to mutate:\n{prompt}"
+        )
 
-        return self.llm.generate(system_msg + user_msg)
+        return self.llm.generate(system_msg + "\n\n" + user_msg)
+
     
 
     def generate_next_population(self):
