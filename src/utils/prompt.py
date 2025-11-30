@@ -86,6 +86,31 @@ def build_mutation_prompt(question: str, prompt: str) -> str:
     return system_msg + "\n\n" + user_msg
 
 
+CROSSOVER_SYSTEM_PROMPT = (
+    "You are a sophisticated genetic operator for prompt optimization. "
+    "Your task is to perform a *crossover* operation. "
+    "Combine the best structural elements, tones, and perspectives "
+    "of the two provided high-performing prompts (Parent A and Parent B) "
+    "into a single, novel, and highly effective prompt (Child Prompt). "
+    "The new prompt must target the main user question and retain the "
+    "high quality demonstrated by the parents."
+)
+
+CROSSOVER_USER_PROMPT_TEMPLATE = (
+    "User's main question: {question}\n"
+    "Parent A:\n{prompt_a}\n"
+    "Parent B:\n{prompt_b}"
+)
+
+def build_crossover_prompt(question: str, prompt_a: str, prompt_b: str) -> str:
+    system_msg = CROSSOVER_SYSTEM_PROMPT
+    user_msg = CROSSOVER_USER_PROMPT_TEMPLATE.format(
+        question=question,
+        prompt_a=prompt_a,
+        prompt_b=prompt_b
+    )
+    return system_msg + "\n\n" + user_msg
+
 
 # Others
 PROMPT1 = """
