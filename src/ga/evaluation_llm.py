@@ -16,7 +16,9 @@ class LLMEvaluator:
         )
         response = self.llm.generate(eval_prompt, 5)
         print("Eval response:", response)
-        match = re.search(r"\d+(?:\.\d+)?", response)
+        cleaned_response = response.strip().replace('"', '').replace("'", "")
+        match = re.search(r"(\d+(?:\.\d+)?)", cleaned_response) 
         if match:
-            return float(match.group())
-        raise ValueError(f"No valid number found in LLM response: {response}")
+            return float(match.group(1)) 
+        print(f"ATTENTION: Aucun score valide trouvé dans la réponse LLM. Score par défaut de 0.0.")
+        return 0.0 
