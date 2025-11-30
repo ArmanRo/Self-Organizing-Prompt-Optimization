@@ -1,11 +1,9 @@
 from ga.genetic_algorithm import GeneticAlgorithm
-from ga.prompt_population import PromptPopulation
-from ga.evaluation_llm import LLMEvaluator
 
 
 def main():
     llm_provider = "ollama"
-    question = "Describe a rabbit"
+    question = "In a few words, describe a rabbit"
     prompts_amount = 10
     evaluation_criteria = "accuracy, language, and level of detail"
     evaluator = "llm"
