@@ -14,6 +14,28 @@ S.O.S. is an experimental AI system designed to automate prompt generation and e
 - `Large Language Models (LLMs)`
 - `Multi-agent architecture`
 
+## How It Works: The Genetic Optimization Cycle
+S.O.S. uses a Genetic Algorithm to continuously refine prompts for maximum effectiveness against a specified criteria.
+
+### 1. Initial Population (Génération 0)
+The system starts by generating a set of diverse initial prompts based on the user's main question, leveraging a highly structured meta-prompt to ensure variety (tone, style, and perspective).
+
+### 2. Evaluation
+Each prompt in the current population is tested:
+a.  **Response Generation:** The prompt is submitted to the target LLM (e.g., Ollama) to generate **N samples** (responses).
+b.  **Scoring:** An impartial LLM Evaluator scores each response based on the defined **evaluation criteria** (e.g., "accuracy, language, and level of detail"). The prompt's final score is the average of all response scores.
+
+### 3. Selection and Reproduction
+The prompts are sorted by score. The next generation is created using high-performing prompts (parents) through the following genetic operations, determined by the configuration ratios (`elite_ratio`, `improve_ratio`, etc.):
+
+* **Elite (Elitism):** The best prompts are copied directly to the next generation, preserving the highest performance found so far.
+* **Improvement (Mutation de haut niveau):** A single parent prompt is submitted to a **Prompt Optimizer LLM** to generate a slightly *better* version.
+* **Crossover:** Two high-performing parent prompts are combined by a **Crossover LLM** to create a novel child prompt, fusing their best characteristics.
+* **Mutation:** A small, local change (typo fix, word replacement) is applied to a prompt to maintain diversity and explore nearby solutions.
+
+### 4. Iteration
+This cycle repeats for a specified number of generations (`max_generations`), gradually converging on the most effective prompt for the task.
+
 ## Installation
 ### Clone the repository:
 ```bash
