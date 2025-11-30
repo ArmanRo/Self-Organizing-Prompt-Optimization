@@ -1,16 +1,28 @@
+import json
+
 from ga.genetic_algorithm import GeneticAlgorithm
 
 
 def main():
-    llm_provider = "ollama"
-    question = "In a few words, describe a rabbit"
-    prompts_amount = 10
-    evaluation_criteria = "accuracy, language, and level of detail"
-    evaluator = "llm"
-    max_generations = 10
+    with open("config.json", "r") as f:
+        config = json.load(f)
 
-
-    ga = GeneticAlgorithm(llm_provider, question, prompts_amount, evaluation_criteria, evaluator, max_generations)
+    llm_provider = config["llm_provider"]
+    question = config["question"]
+    prompts_amount = config["prompts_amount"]
+    evaluation_criteria = config["evaluation_criteria"]
+    evaluator = config["evaluator"]
+    max_generations = config["max_generations"]
+    
+    
+    ga = GeneticAlgorithm(
+        llm_provider=llm_provider,
+        question=question,
+        prompts_amount=prompts_amount,
+        evaluation_criteria=evaluation_criteria,
+        evaluator=evaluator,
+        max_generations=max_generations
+    )
     ga.run()
 
 

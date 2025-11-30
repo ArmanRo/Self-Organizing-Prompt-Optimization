@@ -1,0 +1,15 @@
+{
+    "llm_provider": "ollama",
+    "question": "In a few words, describe a rabbit",
+    "prompts_amount": 10,
+    "evaluation_criteria": "accuracy, language, and level of detail",
+    "evaluator": "llm",
+    "max_generations": 10,
+    "evaluation_n_samples": 2,
+    "evaluation_n_judgments": 2,
+    "genetic_algorithm": {
+        "elite_ratio": 0.2,
+        "improve_ratio": 0.4,
+        "mutate_ratio": 0.4
+    }
+}
