@@ -3,7 +3,7 @@ import statistics
 
 from ga.evaluation_llm import LLMEvaluator
 from llm.llm_client import LLMClient
-from utils.prompt import build_initial_prompts
+from utils.prompt import build_initial_prompt
 from .prompt_population import PromptPopulation
 
 
@@ -28,7 +28,7 @@ class GeneticAlgorithm:
 
 
     def generate_initial_prompts(self):
-        final_prompt = build_initial_prompts(self.question, amount=self.prompts_amount)
+        final_prompt = build_initial_prompt(self.question, amount=self.prompts_amount)
         initial_prompts = self.llm.generate_prompts(final_prompt, amount=self.prompts_amount)
         self.save_prompts_to_json(initial_prompts)
         return initial_prompts
