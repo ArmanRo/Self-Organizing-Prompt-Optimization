@@ -1,6 +1,7 @@
 import re
 
 from llm.llm_client import LLMClient
+from utils.prompt import EVALUATION_PROMPT_TEMPLATE
 
 
 class LLMEvaluator:
@@ -8,17 +9,11 @@ class LLMEvaluator:
         self.llm = llm_client
 
     def evaluate(self, question, answer, criteria) -> float:
-        eval_prompt = f"""
-        You are an impartial evaluator.
-        Rate the following answer from 0 to 10 based on these criteria:
-        {criteria}
-
-        Question: {question}
-        Answer: {answer}
-
-        Respond with ONLY a single float number between 0 and 10.
-        Do NOT add text, comments, or punctuation.
-        """
+        eval_prompt = EVALUATION_PROMPT_TEMPLATE.format(
+            criteria=criteria,
+            question=question,
+            answer=answer
+        )
         response = self.llm.generate(eval_prompt, 5)
         print("Eval response:", response)
         match = re.search(r"\d+(?:\.\d+)?", response)

@@ -2,6 +2,7 @@ import random
 
 from ga.prompt_candidate import PromptCandidate
 from llm.llm_client import LLMClient
+from utils.prompt import build_improvement_prompt, build_mutation_prompt
 
 
 class PromptPopulation:
@@ -22,38 +23,13 @@ class PromptPopulation:
 
     
     def improve_prompt(self, prompt: str) -> str:
-        system_msg = (
-            "You are a prompt optimizer. "
-            "Given a prompt, generate a slightly improved version of it. "
-            "Your modifications must be small, preserve the original intent, "
-            "and increase clarity, precision, or usefulness. "
-            "Always stay focused on the main topic defined by the user question. "
-            "Never invent new sub-tasks."
-        )
-
-        user_msg = (
-            f"User's main question: {self.question}\n"
-            f"Prompt to improve:\n{prompt}"
-        )
-
-        return self.llm.generate(system_msg + "\n\n" + user_msg)
+        improvement_prompt = build_improvement_prompt(self.question, prompt)
+        return self.llm.generate(improvement_prompt)
 
 
     def mutate_prompt(self, prompt: str) -> str:
-        system_msg = (
-            "You are a mutation operator for a genetic algorithm. "
-            "Apply only a *small local mutation* to the prompt: "
-            "replace a word, rephrase a clause, or add minor clarification. "
-            "Keep the meaning and structure unchanged. "
-            "Always ensure the mutated prompt remains closely related to the main user question."
-        )
-
-        user_msg = (
-            f"User's main question: {self.question}\n"
-            f"Prompt to mutate:\n{prompt}"
-        )
-
-        return self.llm.generate(system_msg + "\n\n" + user_msg)
+        mutation_prompt = build_mutation_prompt(self.question, prompt)
+        return self.llm.generate(mutation_prompt)
 
     
 
