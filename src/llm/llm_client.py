@@ -1,4 +1,5 @@
 from llm.base_provider import BaseLLMProvider
+from llm.providers.gemini import GeminiProvider
 from llm.providers.ollama import OllamaProvider
 # from llm.providers.openai import OpenAIProvider
 
@@ -10,8 +11,10 @@ class LLMClient(BaseLLMProvider):
     def _init_provider(self, provider: str) -> BaseLLMProvider:
         if provider == "ollama":
             return OllamaProvider()
+        elif provider == "gemini":
+            return GeminiProvider()
         # elif provider == "openai":
-        #     return OpenAIProvider(**kwargs)
+        #     return OpenAIProvider()
         else:
             raise ValueError(f"Fournisseur inconnu : {provider}")
 
