@@ -1,0 +1,200 @@
+[
+    {
+        "prompt": "Create a poetic portrait that captures the essence of a rabbit's enchanting personality and soothing presence.",
+        "responses": [
+            {
+                "response": "**Whispers of Wonder**\n\nIn twilight's hush, where shadows play,\nA gentle soul roams, with steps so light of day.\nHer name is Luna, a rabbit of peace,\nWith eyes like moonbeams, soft and release.\n\nHer fur, a silky canvas, hues of dawn and gray,\n Inviting all to snuggle in and stay.\nHer whiskers twitch, a language all her own,\nConveying secrets, whispers yet unknown.\n\nHer little nose twitches, sniffing out delight,\nAs she explores the world with curious sight.\nWith every hop, a rhythm fills the air,\nA soothing cadence that calms all care.\n\nIn Luna's presence, worries fade away,\nLike mist at dawn, dissolving into gray.\nHer soft breath whispers comfort to the soul,\nAs if the gentlest of zephyrs made her whole.\n\nHer ears, a symphony of listening love,\nDrinking in the beauty sent from above.\nHer heart beats slow and steady as a drum,\nA tranquil heartbeat that echoes within some.\n\nIn Luna's enchanting world, time stands still,\nWhere worries cease to be, and joy fills the hill.\nShe is a guardian of serenity and peace,\nA soft-spoken whisperer who brings solace to release.\n\nWith each passing moment, her charm grows strong,\nAs if the essence of moonlight made her belong.\nIn a world of chaos, she shines like a guiding light,\n Illuminating paths through darkness's endless night.\n\nLuna, dear rabbit of wonder and delight,\nReminds us that peace is always in sight.\nMay your gentle spirit stay with us all,\nGuiding us gently through life's joys and falls.",
+                "scores": [
+                    1.5,
+                    4.3
+                ],
+                "average_score": 2.9
+            },
+            {
+                "response": "Here's a poetic portrait that distills the rabbit's captivating essence:\n\n**Title:** Whispers of Wonder\n\n**The Gentle Soul**\n\nA whisper of fluff, a flicker of light,\nThis quiet creature stirs our heart's delight.\nWith eyes like pools of calm, serene and bright,\nShe radiates peace, a gentle, soothing sight.\n\nHer steps are whispers on the forest floor,\nAs she weaves her path with gentle care once more.\nHer soft, silken fur a haven for the touch,\n Inviting all to bask in her loving clutch.\n\n**The Enchanted Heart**\n\nWithin this furry form beats a heart of gold,\nA tender soul that warms our spirits bold.\nWith every hop and leap, she dances free,\nUnbridled joy that brings us ecstasy.\n\nHer curious nature kindles curiosity within,\nAs she sniffs the air with whimsical grin.\nShe's a seeker of wonder, a lover of delight,\nA shining star in the garden's verdant light.\n\n**The Soothing Presence**\n\nAs we sit with her, our worries fade away,\nLike misty mornings dissolving in sunlight gray.\nIn her tranquil presence, our hearts find rest,\nOur souls reviving like a forest after a winter's nest.\n\nHer little paws and twitching whiskers enthrall,\nA symphony of innocence that beckons us to stand tall.\nWith every gentle nuzzle, she whispers low,\n\"Trust in me, dear one, for love will see you through.\"\n\n**The Enchanted Realm**\n\nIn this rabbit kingdom, wonder reigns supreme,\nWhere laughter and joy echo like a sweet, clear stream.\nHere magic happens with every twitch of her ear,\nA world of enchantment unfolding without fear.\n\nAs we bask in her soothing presence, our spirits soar,\nWe're reminded that love and peace forever roar.\nFor in this rabbit's loving heart, we find our own,\nA mirrored reflection of the gentle soul at home.",
+                "scores": [
+                    5.2,
+                    2.5
+                ],
+                "average_score": 3.85
+            }
+        ],
+        "final_score": 3.375
+    },
+    {
+        "prompt": "Provide a concise and accurate description of a rabbit's size, fur color, ear length, and body shape to aid in its recognition during a wilderness outing.",
+        "responses": [
+            {
+                "response": "Here is a concise and accurate description of a rabbit:\n\n**Size:** Rabbits are relatively small mammals, typically between 8-12 inches (20-30 cm) in length, including their tail, and weigh around 2-4 pounds (0.9-1.8 kg).\n\n**Fur Color:** Rabbits have thick, soft fur that can vary in color depending on the species, but common colors include:\n\n* Brown (ranging from light tan to dark chocolate)\n* Gray (from light silver-gray to charcoal)\n* White\n* Black\n* Tan or reddish-brown\n\n**Ear Length:** Rabbits have long ears compared to their body size, typically around 4-6 inches (10-15 cm) in length.\n\n**Body Shape:** Rabbits have a compact, elongated body with a relatively short neck and legs. They have a prominent pair of hind legs that allow them to jump and move quickly. Their fur is longer on the back, forming a distinctive \"cape\" effect.\n\nTo aid in recognition during a wilderness outing:\n\n* Look for small mammals with long ears and thick fur\n* Check for color variations such as brown, gray, or white\n* Observe their compact body shape and short legs\n* Be aware of their tendency to freeze when threatened, allowing them to remain still and quiet\n\nRemember that there are several species of rabbits, and some may have distinctive markings or features. If you're unsure about the identity of a rabbit you encounter in the wild, consult with a wildlife expert or field guide for assistance.",
+                "scores": [
+                    8.4,
+                    9.5
+                ],
+                "average_score": 8.95
+            },
+            {
+                "response": "Here is a concise and accurate description of a rabbit's physical characteristics:\n\n**Size:** Rabbits are relatively small animals, typically ranging from 8-12 inches (20-30 cm) in length, including their tail, and weighing between 2-4 pounds (0.9-1.8 kg).\n\n**Fur Color:** Rabbit fur can vary in color depending on the species, but common colors include:\n\n* Brown or reddish-brown\n* Gray or blue-gray\n* White or cream-colored\n\n**Ear Length:** Rabbits have relatively short ears compared to their body size, typically around 2-3 inches (5-7.5 cm) long.\n\n**Body Shape:** Rabbits have a compact, elongated body with a rounded head, prominent eyes, and strong hind legs. Their bodies are often described as having a \"cylindrical\" or \"football-shaped\" profile.\n\nSome distinguishing features to look out for include:\n\n* A white patch on the forehead (known as a \"bib\")\n* A distinctive \"brush\" of longer fur around their rump\n* Strong, agile hind legs that enable them to jump long distances\n\nKeep in mind that there are over 30 species of rabbits found worldwide, and some may exhibit slightly different characteristics. However, these general descriptions should provide a useful guide for recognizing a rabbit during a wilderness outing.",
+                "scores": [
+                    9.5,
+                    9.5
+                ],
+                "average_score": 9.5
+            }
+        ],
+        "final_score": 9.225
+    },
+    {
+        "prompt": "For an inexperienced gardener, provide a brief description of a rabbit's size, fur color, and distinctive features that aid in identification.",
+        "responses": [
+            {
+                "response": "Here are the key characteristics to help you identify rabbits:\n\n**Size:** Rabbits are medium-sized mammals, typically ranging from 12 to 24 inches (30-60 cm) in length, including their tail. They usually weigh between 2 and 4 pounds (1-2 kg).\n\n**Fur Color:**\n\n* European rabbits: Brown or greyish-brown fur with a lighter-colored belly.\n* Eastern cottontails: Brown or reddish-brown fur with a white underside.\n* Other species, such as snowshoe hares, may have white or light-colored coats in winter.\n\n**Distinctive Features:**\n\n* **Long ears:** Rabbits have very long ears that are usually rounded at the tips. These help them detect predators and hear sounds from far away.\n* **Large hind legs:** Rabbits have powerful back legs that enable them to jump long distances, often up to 25 feet (7.6 meters) in a single bound!\n* **Distinctive facial features:** Rabbits have big brown eyes, a black nose, and a pair of whiskers on either side of their face.\n* **Long front teeth:** Rabbits have prominent incisors that are designed for gnawing plant material.\n\nKeep in mind that there are over 30 species of rabbits, so some may exhibit variations in size, color, or features. However, these general characteristics should help you identify most rabbit species.",
+                "scores": [
+                    8.5,
+                    8.5
+                ],
+                "average_score": 8.5
+            },
+            {
+                "response": "Here's a brief description to help you identify a rabbit:\n\n**Size:** Rabbits typically range from 8-12 inches (20-30 cm) in length, including their tail, and weigh between 2-4 pounds (1-2 kg).\n\n**Fur Color:**\n\n* European rabbits usually have brown or grayish-brown fur with white patches on the face, belly, and behind the ears.\n* Domesticated rabbits can come in a variety of colors, such as white, black, brown, grey, or calico patterns.\n\n**Distinctive Features:**\n\n* **Long ears:** Rabbits have long, thin ears that are very mobile and help them detect predators.\n* **Large eyes:** Their eyes are relatively large and positioned on the sides of their head, allowing for wide peripheral vision.\n* **Strong hind legs:** Rabbits have powerful back legs with sharp claws, which they use to jump long distances (up to 25 feet or 7.6 meters in a single bound).\n* **Bushy tail:** Many rabbit species have a fluffy tail that helps them balance while running.\n\n**Additional Tips:**\n\n* Look for movement and watch for signs of burrowing, such as holes or tunnels.\n* Listen for the distinctive sound of rabbits thumping their hind legs on the ground to alert others to potential danger.\n* Keep an eye out for any rabbit droppings (small, round pellets) in your garden.\n\nRemember that if you're unsure about what you've spotted, it's always best to consult with a wildlife expert or take a photo and ask for identification. Happy gardening!",
+                "scores": [
+                    8.5,
+                    8.5
+                ],
+                "average_score": 8.5
+            }
+        ],
+        "final_score": 8.5
+    },
+    {
+        "prompt": "In a few words, describe a cartoonish, anthropomorphic rabbit with exaggerated features and movements.",
+        "responses": [
+            {
+                "response": "Over-the-top bunny with floppy ears, wobbly whiskers, and springy legs.",
+                "scores": [
+                    8.5,
+                    6.5
+                ],
+                "average_score": 7.5
+            },
+            {
+                "response": "Bouncy, fluffy, wacky bunny.",
+                "scores": [
+                    8.5,
+                    7.5
+                ],
+                "average_score": 8.0
+            }
+        ],
+        "final_score": 7.75
+    },
+    {
+        "prompt": "Here is a small local mutation:\n\nDescribe a typical house-dwelling mammal with long ears.",
+        "responses": [
+            {
+                "response": "A typical house-dwelling mammal with long ears might be the bat.",
+                "scores": [
+                    3.5,
+                    2.3
+                ],
+                "average_score": 2.9
+            },
+            {
+                "response": "Based on the prompt, I'll describe a typical house-dwelling mammal with long ears.\n\nThe animal in question is likely a rabbit! Rabbits are common household pets and have distinctive long ears that help them detect sounds and regulate their body temperature. They're relatively small in size, gentle, and social creatures that thrive in domestic environments.",
+                "scores": [
+                    8.9,
+                    5.2
+                ],
+                "average_score": 7.050000000000001
+            }
+        ],
+        "final_score": 4.9750000000000005
+    },
+    {
+        "prompt": "Create a poetic portrait that captures a rabbit's playful innocence and gentle elegance.",
+        "responses": [
+            {
+                "response": "Here's a poetic portrait of a rabbit, capturing its playful innocence and gentle elegance:\n\n**\"Moonlit Hare\"**\n\nWith eyes like sapphires shining bright,\nA furry crescent moon in the night,\nShe dances forth with steps so light,\nUnfurling whimsy, pure delight.\n\nHer coat, a canvas of gentle hue,\nFrom sandy dunes to forest dew,\nInviting touch and snuggles too,\nAs soft as summer's promise anew.\n\nWith ears that twitch like wind-blown grass,\nShe listens in on secrets passed,\nHer whiskers quiver with glee,\nAs she frolics wild, carefree.\n\nIn this verdant world of dreams she strays,\nA sprite, unbound by mortal ways,\nNo burdens weigh upon her heart,\nOnly the pure joy to explore and play.\n\nLike a watercolor wash, she moves,\nColors blending in harmonious roves,\nHer path unwinding like a stream,\nReflecting life's simple, peaceful theme.\n\nAnd when the moon dips low in west,\nShe settles down, her rest at best,\nSoftly sighs out a gentle breath,\nIn tranquil repose, her dreams to bequeath.\n\nThis poetic portrait of a rabbit captures its playful innocence and gentle elegance through:\n\n* Imagery that evokes a sense of wonder (e.g., \"eyes like sapphires shining bright,\" \"furry crescent moon\")\n* Gentle language that conveys the rabbit's delicate nature (e.g., \"soft as summer's promise anew\")\n* Whimsical expressions that highlight its playful spirit (e.g., \"unfurling whimsy, pure delight\")\n* A focus on natural imagery to emphasize the rabbit's harmony with its surroundings (e.g., \"colors blending in harmonious roves\")\n\nI hope this poetic portrait brings a smile and captures the essence of the rabbit's lovable nature!",
+                "scores": [
+                    2.0,
+                    2.5
+                ],
+                "average_score": 2.25
+            },
+            {
+                "response": "**\"Whispers of Willow\"**\n\nIn moonlit meadows, where wildflowers sway,\nA silken creature dances, lost in play.\nHer fur, a whisper-thin veil of gray,\nInviting all to revel in her whimsical day.\n\nWith eyes like sapphires shining bright and wide,\nShe frolics, unencumbered by the weight of pride.\nHer little paws barely touch the ground,\nAs if the wind itself had woven her around.\n\nHer delicate ears, a symphony of delight,\nDrink in each sound, from dawn till night's soft light.\nHer nose, a twitching flame, sniffs out each treat,\nAnd with each discovery, her joy skips to meet.\n\nIn gentle arcs, she leaps and twirls and spins,\nA whirlwind of innocence, without a care within.\nHer paws barely make a sound, as if on tiptoe,\nAs if the very earth itself had given her an ease to move.\n\nHer soft, downy coat, like silk to touch and see,\n Invites all who pass to pause and marvel at her glee.\nIn her presence, worries fade like morning dew,\nAnd even the sternest of hearts are softened anew.\n\nWith a playful nudge, she'll lead you on a chase,\nThrough sun-dappled glades and secret hidden places.\nHer laughter echoes, a joyful, tinkling sound,\nAs she frolics, unbridled, in this world of wonder all around.\n\nAnd when the stars appear, like diamonds in the sky,\nShe'll curl up tight, her eyes shining bright with a twinkling sigh.\nIn slumber, still as snow, she's a vision to behold,\nA gentle creature, innocent and wise, with a heart of gold.\n\nThis poetic portrait captures the rabbit's playful innocence and gentle elegance by using language that evokes a sense of wonder and enchantment. The imagery is meant to be dreamy and ethereal, conveying the idea that this creature is a symbol of joy and freedom.",
+                "scores": [
+                    0.0,
+                    0.0
+                ],
+                "average_score": 0.0
+            }
+        ],
+        "final_score": 1.125
+    },
+    {
+        "prompt": "\"Envision a compact, agile, furry creature with long ears and whiskers, possessing endearing quirks akin to a human's.\"",
+        "responses": [
+            {
+                "response": "What a delightful prompt!\n\nLet me see if I can bring this charming creature to life...\n\nMeet the \"Fluffnose\": a small, agile being that embodies the perfect blend of cuteness and playfulness. Its soft, velvety fur is a joy to behold, with a subtle sheen that catches the light just so.\n\nThe Fluffnose has a pair of impressively long ears that are as expressive as those of its human counterparts. They twitch with excitement whenever it senses something interesting, and perk up at the slightest whisper of food or playtime. Its whiskers are long and slender, like delicate brushes that help guide the creature through the world.\n\nOne of the Fluffnose's most endearing quirks is its habit of collecting shiny objects. It has a special fondness for lost buttons, discarded coins, and any other metallic trinket it can find. The creature will proudly display its treasures in a makeshift trophy case, constructed from twigs, leaves, and whatever else it can scrounge up.\n\nDespite its many charms, the Fluffnose is not without its flaws. It has a tendency to be a bit mischievous, often \"reorganizing\" its owner's belongings or pilfering small items to add to its collection. However, its adorable antics and charming nature make it impossible to stay mad at for long.\n\nWhen interacting with humans, the Fluffnose is quick to form close bonds, responding to affectionate names like \"Snugglebug\" or \"Furry Friend.\" It will often initiate cuddle sessions by nuzzling its head against a leg or arm, emitting soft little chirps of contentment as it's petted and pampered.\n\nIn the wild, Fluffnoses can be found in sun-dappled forests, where their agility allows them to navigate through dense underbrush with ease. They're omnivores, feeding on a mix of fruits, nuts, insects, and small invertebrates. Despite their ability to adapt to different environments, they remain fiercely loyal to their own territory, which is marked by a distinctive scent left on nearby rocks or branches.\n\nAs the Fluffnose grows older, it will develop a unique personality that's shaped by its experiences and interactions with others. Some may become natural-born explorers, while others might prefer quieter pursuits like reading or napping in the sun. Regardless of their individual quirks, all Fluffnoses share a deep affection for life's simple pleasures – and a penchant for spreading joy wherever they go.\n\nWhat do you think? Have I done justice to this delightful creature?",
+                "scores": [
+                    2.5,
+                    1.2
+                ],
+                "average_score": 1.85
+            },
+            {
+                "response": "That sounds like an adorable creature! Let me try to flesh out its characteristics further.\n\nMeet the \"Furlick\": a small, agile creature that stands about 2-3 feet tall at the shoulder. Its compact body is covered in soft, plush fur that's a mix of brown and gray hues, with a distinctive white patch on its forehead. The Furlick's long ears are its most striking feature - they're velvety soft and incredibly flexible, allowing it to pinpoint even the faintest sounds.\n\nThose whiskers I mentioned earlier? They're not just for show. The Furlick's highly sensitive whiskers help it navigate through tight spaces and detect subtle changes in air pressure, making it an expert at finding hidden food sources or detecting potential threats.\n\nThe Furlick's endearing quirks are, of course, what make it so lovable. It has a habit of tilting its head to one side when listening intently, as if trying to understand some profound secret. When excited or curious, the Furlick will often spin around in circles, its long ears flapping wildly like tiny flags.\n\nDespite its playful nature, the Furlick is also surprisingly intelligent and resourceful. It has a knack for solving problems and adapting to new situations, often relying on its quick wit and cunning to outsmart predators or find creative solutions to food scarcity.\n\nOne of the most charming aspects of the Furlick's behavior is its affectionate nature. It forms strong bonds with its pack members and will go to great lengths to care for them, often lavishing them with gentle nuzzles and soft purrs (yes, it has a unique vocal language that sounds like a cross between a cat's meow and a mouse's squeak).\n\nIn short, the Furlick is a lovable, mischievous creature that will capture your heart with its playful antics and adorable appearance.",
+                "scores": [
+                    2.3,
+                    1.5
+                ],
+                "average_score": 1.9
+            }
+        ],
+        "final_score": 1.875
+    },
+    {
+        "prompt": "Scientific Analysis: Describe a rabbit from a biological perspective focusing on its physical characteristics.",
+        "responses": [
+            {
+                "response": "**Taxonomic Classification:**\n\n* Kingdom: Animalia\n* Phylum: Chordata\n* Class: Mammalia\n* Order: Lagomorpha\n* Family: Leporidae\n* Genus: Oryctolagus (European rabbit)\n* Species: O. cuniculus\n\n**Physical Characteristics:**\n\nThe European rabbit (Oryctolagus cuniculus) is a small to medium-sized mammal with several distinctive physical characteristics.\n\n### Skeletal System:\n\n* **Body length:** Approximately 40-50 cm (16-20 in), excluding the tail.\n* **Tail length:** Typically around 5-7.5 cm (2-3 in).\n* **Weight range:** Males: 1.8-2.6 kg (4-5.7 lbs); females: 1.4-2.3 kg (3.1-5.1 lbs).\n\n### Muscular System:\n\n* **Muscle mass:** Rabbits have strong hind legs with powerful muscles, ideal for jumping and running.\n* **Flexibility:** Their flexible spine allows them to twist and turn quickly.\n\n### Skin and Hair:\n\n* **Fur:** Short, thick, and soft, providing insulation against cold temperatures.\n* **Skin:** Thin, almost hairless, but covered in short guard hairs that provide additional protection from the elements.\n* **Coloration:** Typically brown or gray with darker patches on the back, lighter fur on the belly, and a distinctive white patch on the forehead.\n\n### Reproductive System:\n\n* **Sexual maturity:** Males reach reproductive maturity at around 6-8 months of age; females: 4-5 months.\n* **Reproductive organs:** Females have two ovaries and a uterus with a single birth canal (vagina), while males possess two testes and a penis.\n\n### Sensory Organs:\n\n* **Eyes:** Large, round eyes positioned on the sides of the head to provide wide vision and detect predators.\n* **Ears:** Long, pointed ears, highly mobile and sensitive to sound waves, helping the rabbit detect potential threats.\n* **Whiskers:** Short, stiff hairs around the mouth that aid in navigation and detecting food.\n\n### Digestive System:\n\n* **Diet:** Rabbits are herbivores, with a diet consisting primarily of plant-based materials (grass, leaves, fruits).\n* **Mouth and teeth:** Specialized incisors for gnawing on tough plant material.\n* **Gastrointestinal tract:** A long, complex digestive system adapted to break down cellulose in plant cell walls.\n\nIn summary, the European rabbit's physical characteristics are well-suited to its environment. Its robust hind legs enable it to jump and run efficiently, while its powerful front legs facilitate burrowing activities.",
+                "scores": [
+                    8.5,
+                    9.5
+                ],
+                "average_score": 9.0
+            },
+            {
+                "response": "From a biological perspective, a rabbit ( genus Oryctolagus cuniculus) is a small to medium-sized mammal that belongs to the family Leporidae. The following description highlights its physical characteristics:\n\n**Body Structure:**\n\n* **Skeletal System:** Rabbits have a compact, lightweight skeleton composed of bones that are adapted for jumping and movement. Their skeletal system includes 32 teeth, with a dental formula of I 0/3, C 1/1, P 4/4, M 3/3.\n* **Muscular System:** Rabbits possess well-developed muscles in their hind legs, which enable them to jump long distances and accelerate quickly. Their leg muscles are also adapted for sustained activity.\n* **Skin and Hair:** The rabbit's skin is smooth and thin, covered with a thick undercoat of soft, fine hair (velvet-like fur) that helps to regulate body temperature.\n\n**Physical Characteristics:**\n\n* **Ears:** Rabbits have long, pointed ears that are highly mobile, allowing them to detect even the faintest sounds. Their ears are richly supplied with blood vessels and contain sensory receptors that help detect vibrations in the air.\n* **Eyes:** Rabbits have large, expressive eyes that are positioned on either side of their head, giving them a wide field of vision (around 360°). Their eyes are sensitive to light and dark adaptation, enabling them to navigate effectively at dawn and dusk.\n* **Nose:** The rabbit's nose is highly developed, with a large olfactory bulb and numerous sensory receptors that detect chemical cues in the environment. This helps them locate food sources, predators, and mates.\n* **Teeth:** Rabbits have a characteristic dental structure, with prominent incisors (front teeth) and molars adapted for grinding plant material. Their cheek teeth are designed to cut grasses and other herbaceous vegetation.\n* **Paws and Legs:** Rabbits possess strong hind legs and paws that enable them to jump long distances. Their front paws have five toes, each equipped with sharp claws for grasping and manipulating food.\n\n**Specialized Features:**\n\n* **Pelvic Structure:** The rabbit's pelvis is specially designed to accommodate their powerful hind leg muscles. This unique structure enables them to generate tremendous force during jumping and acceleration.\n* **Digestive System:** Rabbits have a specialized digestive system adapted for high-fiber diets, featuring a long cecum (a large pouch-like organ in the gut) that houses a diverse community of microbes. These microorganisms help break down cellulose in plant cell walls, allowing the rabbit to extract nutrients from low-quality food sources.\n* **Thermoregulation:** Rabbits have a unique mechanism for thermoregulating their body temperature, using behavioral adaptations (such as seeking shade or shelter) and physiological responses (like panting and sweating) to maintain homeostasis.\n\nOverall, the rabbit's physical characteristics reflect its evolutionary history as a highly specialized herbivore that has adapted to various environments worldwide. Its unique features enable it to thrive in diverse ecosystems, from grasslands to forests, deserts, and even human-dominated landscapes.",
+                "scores": [
+                    9.2,
+                    8.5
+                ],
+                "average_score": 8.85
+            }
+        ],
+        "final_score": 8.925
+    },
+    {
+        "prompt": "Practical Identification Guide: Offer a straightforward description of the physical characteristics of a rabbit for easy identification in the wild.",
+        "responses": [
+            {
+                "response": "Here is a practical identification guide to help you spot a rabbit in the wild:\n\n**Physical Characteristics:**\n\n* **Body Shape:** Rabbits have a stocky, compact body with a rounded torso and short legs.\n* **Size:** They typically range from 8-12 inches (20-30 cm) in length, including their tail, and weigh between 2-4 pounds (1-2 kg).\n* **Fur:** Rabbits have thick, soft fur that can vary in color depending on the species. Common colors include brown, gray, white, black, and tan.\n* **Ears:** Their ears are long and pointed, with a distinctive shape that sets them apart from other small mammals.\n* **Eyes:** Rabbits have large, dark eyes that are set far back on their head, giving them excellent peripheral vision.\n* **Nose:** Their nose is short and button-like, often hidden behind their whiskers.\n* **Legs:** Rabbits have short, powerful legs with long hindlimbs that allow for impressive jumping ability.\n* **Tail:** Their tail is relatively short and fluffy.\n\n**Key Identification Features:**\n\n* Look for the distinctive \"V\"-shaped ears\n* Check for a rounded body shape and short legs\n* Note the large, dark eyes and button-like nose\n* Observe their thick, soft fur and long hindlimbs\n\n**Habitat and Behavior:**\n\n* Rabbits are typically found in grasslands, meadows, and woodlands\n* They are crepuscular (active at dawn and dusk) or nocturnal (active at night)\n* Watch for signs of rabbit activity, such as burrows, droppings, and nibbled vegetation\n\nBy keeping an eye out for these physical characteristics and habits, you should be able to easily identify a rabbit in the wild.",
+                "scores": [
+                    6.25,
+                    8.5
+                ],
+                "average_score": 7.375
+            },
+            {
+                "response": "**Physical Characteristics of a Rabbit**\n\nRabbits are small to medium-sized mammals with distinctive physical features that make them easily identifiable. Here's a practical guide to help you identify a rabbit in the wild:\n\n**Overall Appearance:**\n\n* Rabbits have a compact, rounded body shape with long ears and strong hind legs.\n* They typically range from 8-12 inches (20-30 cm) in length and weigh between 2-4 pounds (1-2 kg).\n* Their fur can vary in color depending on the breed or species, but most rabbits have short, dense coats that are often white, brown, gray, or black.\n\n**Key Identifying Features:**\n\n* **Ears:** Rabbits have long, pointed ears that are very mobile and can be moved independently. They help with balance, hearing, and communication.\n* **Eyes:** Their eyes are large and dark in color, often shining bright with a keen sense of observation.\n* **Nose:** Rabbits have a small, pink nose that is highly sensitive to smells and textures.\n* **Paws:** Their front paws have sharp claws for digging and grasping, while their hind legs have powerful muscles for jumping and escaping predators.\n* **Tail:** Rabbits often have a short, stubby tail or no tail at all (in some breeds).\n* **Legs:** Strong, muscular hind legs enable rabbits to jump long distances with incredible speed and agility.\n\n**Behavioral Cues:**\n\n* **Movement:** Rabbits are quick and agile, often hopping rapidly on their hind legs when threatened or excited.\n* **Hiding behavior:** They tend to hide in burrows, under vegetation, or in hidden areas to feel secure and escape predators.\n* **Grooming:** Rabbits frequently groom themselves by licking and nuzzling their fur to stay clean and relaxed.\n\n**What to Look For:**\n\nWhen searching for a rabbit in the wild, look for these key identifying features:\n\n* A compact, rounded body with long ears\n* Powerful hind legs and sharp claws on front paws\n* Large, dark eyes and sensitive nose\n* Short or absent tail (in some breeds)\n* Frequent hiding behavior and grooming habits\n\nBy recognizing these physical characteristics and behavioral cues, you'll be well-equipped to identify a rabbit in its natural habitat.",
+                "scores": [
+                    9.8,
+                    8.5
+                ],
+                "average_score": 9.15
+            }
+        ],
+        "final_score": 8.2625
+    }
+]

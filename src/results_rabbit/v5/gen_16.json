@@ -1,0 +1,442 @@
+[
+    {
+        "prompt": "Describe a standard, adult rabbit's common physical attributes.",
+        "responses": [
+            {
+                "response": "A standard, adult rabbit typically has the following common physical attributes:\n\n**Body Type:**\n\n* Long and slender body with a rounded head, long ears, and a short tail.\n* Adult rabbits are usually between 8-12 inches (20-30 cm) in length, excluding their ears.\n\n**Coat:**\n\n* Soft, thick, and dense coat that can be smooth or slightly wiry, depending on the breed.\n* Coat colors vary greatly, including solid, agouti, tortoiseshell, calico, and pointed patterns.\n* Rabbits often have a distinctive white underside to their tail.\n\n**Head:**\n\n* Round head with a short, blunt muzzle and a small chin.\n* Large, prominent eyes that are generally dark in color, although some breeds may have lighter or differently colored eyes.\n* Long, thin ears that are set high on the head, usually carried erect when alert.\n\n**Limbs and Feet:**\n\n* Four legs of equal length, with strong muscles and sharp claws for digging and grasping.\n* Hind legs are slightly longer than front legs, which helps with balance and movement.\n* Paws have five toes, with a prominent toenail on each toe.\n\n**Other Features:**\n\n* A small, pink nose that is highly sensitive to smells and tastes.\n* Ears that can be folded back against the head when frightened or stressed.\n* Burrows or \"nip\" marks on their fur, which are common in domesticated rabbits due to grooming habits.\n\nKeep in mind that these physical attributes can vary depending on breed and individual rabbit characteristics. However, this description represents the typical appearance of a standard adult rabbit.",
+                "scores": [
+                    9.2,
+                    8.5
+                ],
+                "average_score": 8.85
+            },
+            {
+                "response": "A standard, adult rabbit typically exhibits the following common physical attributes:\n\n**Body Shape and Size:**\n\n* Body length: approximately 20-24 inches (50-60 cm)\n* Height at shoulder: around 8-10 inches (20-25 cm)\n* Weight: usually between 8-12 pounds (3.5-5.5 kg)\n\n**Coat and Color:**\n\n* Most rabbits have a thick, soft coat of fur that requires regular grooming\n* Coat color can vary greatly, ranging from solid colors like white, black, brown, or gray to agouti (mottled) patterns or tabby markings\n* Some breeds may have distinctive coat characteristics, such as long hair, short legs, or a specific coloration\n\n**Head and Ears:**\n\n* Head shape is typically round with a flat forehead and a well-defined stop (the area where the muzzle meets the skull)\n* Ears are long and triangular, often carried upright when alert but folded back when relaxed\n* Eye shape and size vary among breeds, but most rabbits have large, dark eyes\n\n**Legs and Paws:**\n\n* Front legs are usually stronger than hind legs, which can be a bit shorter and more compact\n* Back legs are well-muscled for jumping and hopping\n* Paws are small and oval-shaped with five toes (including the dewclaw)\n\n**Tail:**\n\n* Rabbits have a long, thin tail that is often carried high when alert or relaxed\n* Some breeds may have a shorter or more docked tail due to genetic selection or surgery\n\n**Other Characteristics:**\n\n* A rabbit's musculature is toned and agile, with strong hind legs for jumping and powerful front legs for digging and grasping\n* They have sharp incisors (front teeth) and a well-developed dental structure for grinding plant material\n* Their skeletal system is adapted for jumping and hopping, with strong pelvic and leg bones.\n\nKeep in mind that these attributes can vary depending on the specific breed of rabbit. Some popular breeds, such as the Holland Lop or the English Angora, may exhibit different physical characteristics due to their unique selective breeding history.",
+                "scores": [
+                    7.5,
+                    8.5
+                ],
+                "average_score": 8.0
+            }
+        ],
+        "final_score": 8.425
+    },
+    {
+        "prompt": "\"Describe the key physical attributes of a typical adult rabbit, including its rounded body shape, average weight, medium-length coat texture, relatively long ears, and distinctive facial features like whiskers and nasal markings.\"",
+        "responses": [
+            {
+                "response": "A typical adult rabbit has several distinct physical characteristics. Its body is rounded in shape, with an average weight that can range depending on the breed from approximately 2 to 12 pounds (0.9 to 5.4 kilograms). Rabbits have a medium-length coat texture, which can vary in length and thickness among different breeds.\n\nOne of the most distinctive features of rabbits are their ears, which tend to be relatively long and pointed at the tips. The ears are often compared to bat wings due to their unique shape and flexibility. They are also highly sensitive, playing a crucial role in detecting sounds.\n\nRabbits also have several distinctive facial features that set them apart from other animals. One of the most noticeable is the presence of whiskers on either side of the nose and mouth. These long hairs are extremely sensitive to touch and help guide the rabbit when navigating its surroundings.\n\nThe nasal area of a rabbit is characterized by dark markings around the nostrils, which can vary in size and color depending on the breed. The eyes themselves are relatively large and positioned on the sides of the head, giving the rabbit an impressive field of vision that allows it to detect potential threats from almost any direction.\n\nOverall, rabbits have a unique combination of physical features that make them easily recognizable as members of the order Lagomorpha.",
+                "scores": [
+                    9.5,
+                    8.2
+                ],
+                "average_score": 8.85
+            },
+            {
+                "response": "A typical adult rabbit has several distinct physical attributes that set them apart from other mammals. Here are the key characteristics:\n\n**Body Shape:**\nThe rabbit's body is characterized by a rounded shape, with a slightly flattened torso and a more pronounced curvature at the hips. This rounded shape allows for flexibility and ease of movement.\n\n**Weight:**\nAdult rabbits typically weigh between 2-4 pounds (0.9-1.8 kilograms), depending on breed and sex. Larger breeds like Flemish Giants can reach up to 14 pounds (6.3 kilograms) or more, while smaller breeds like Netherland Dwarfs may weigh as little as 1.5 pounds (0.7 kilograms).\n\n**Coat Texture:**\nThe rabbit's coat is medium-length, with a soft and dense texture that varies in length depending on the breed. Some rabbits have longer coats, such as the Angora or Lop breeds, while others have shorter coats, like the Mini Lop or Holland Lop.\n\n**Ears:**\nOne of the most distinctive features of rabbits is their relatively long ears. These can be erect or semi-erect, depending on the breed, and are incredibly sensitive to sound. They help the rabbit detect potential threats and navigate its surroundings.\n\n**Facial Features:**\nRabbits have several unique facial features that set them apart from other mammals. These include:\n\n* **Whiskers:** Long, stiff hairs that protrude from the rabbit's face, used for sensing their environment and detecting food.\n* **Nasal markings:** A distinctive pattern of darker fur on the bridge of the nose, often shaped like a \"V\" or a \"M\".\n* **Eyes:** Large, expressive eyes that are positioned relatively far apart to give the rabbit a wide field of vision.\n\nOverall, these physical attributes combine to create a unique and recognizable appearance for adult rabbits.",
+                "scores": [
+                    9.5,
+                    8.5
+                ],
+                "average_score": 9.0
+            }
+        ],
+        "final_score": 8.925
+    },
+    {
+        "prompt": "\"Detail a rabbit's defining physical traits and habits, highlighting the distinctive characteristics of an ordinary adult rabbit in concise, vivid terms.\"",
+        "responses": [
+            {
+                "response": "**Physical Traits:**\n\n*   **Body Shape**: A rabbit's body is compact and stout, with a rounded head, short neck, and powerful hind legs.\n*   **Ears**: Long, thin, and mobile ears that help detect even the faintest sounds.\n*   **Fur**: Soft, thick, and dense fur that can vary in color from pure white to dark brown, often featuring distinctive markings on the face, ears, and paws.\n*   **Eyes**: Large, round eyes with a keen sense of vision and a wide range of motion.\n\n**Habits:**\n\n1.  **Dietary Preferences**: Rabbits are herbivores, feeding primarily on plant-based foods like grasses, leaves, and vegetables.\n2.  **Activity Patterns**: They are crepuscular, meaning they're most active during twilight hours (dawn and dusk).\n3.  **Habitat Choices**: Rabbits prefer sheltered areas with dense vegetation for protection from predators and harsh weather conditions.\n4.  **Social Behavior**: While some rabbits are solitary, many form close bonds with their companions and engage in play-fighting and grooming.\n\nThese distinctive characteristics make ordinary adult rabbits well-adapted to their environment, allowing them to thrive as they hop through fields, forests, or even domestic homes.",
+                "scores": [
+                    8.5,
+                    8.75
+                ],
+                "average_score": 8.625
+            },
+            {
+                "response": "Here are the defining physical traits and habits of an ordinary adult rabbit:\n\n**Physical Traits:**\n\n* **Fur:** Soft, thick, and velvety coat that can vary in color, length, and texture depending on breed.\n* **Ears:** Long, erect ears with a rounded tip, highly mobile to detect even slight sounds.\n* **Eyes:** Large, bright eyes with a wide range of colors (e.g., brown, blue, gold) and expressive facial muscles.\n* **Body shape:** Compact, muscular body with a deep chest and well-sprung ribs.\n* **Legs and feet:** Strong hind legs for jumping and powerful forelegs for digging.\n* **Weight and size:** Typically weighs between 2-12 pounds (1-5.4 kg) and measures 14-24 inches (35-60 cm) in length.\n\n**Habits:**\n\n* **Diet:** Herbivorous, with a diet consisting mainly of high-fiber plant material (e.g., grasses, hay, leafy greens).\n* **Behavioral patterns:**\n\t+ **Diurnal**: Active during the day and rests at night.\n\t+ **Solitary animals**: Prefer to live alone but may tolerate companion rabbits in certain situations.\n\t+ **Burrowing behavior**: Instinctively digs complex networks of tunnels and burrows for shelter, protection, and relaxation.\n* **Grooming habits:** Regularly cleans and maintains its coat through self-grooming behaviors (e.g., licking, scratching).\n* **Communication methods:** Uses a range of vocalizations (e.g., soft grunts, chirps), body language (e.g., postures, facial expressions), and scent marking to convey messages.\n\n**Distinctive Characteristics:**\n\n* **Hop behavior**: Rabbits are renowned for their remarkable jumping ability, which allows them to cover great distances with impressive speed.\n* **Vocalizations:** They produce a variety of sounds, including loud screams (when alarmed or distressed) and softer grunts or chirps (for communication).\n* **Grooming habits:** Their constant cleaning and maintenance of their coat makes them appear perpetually clean and tidy.\n\nOverall, an adult rabbit is characterized by its agile body, expressive eyes, soft fur, and endearing behavior.",
+                "scores": [
+                    9.8,
+                    8.5
+                ],
+                "average_score": 9.15
+            }
+        ],
+        "final_score": 8.8875
+    },
+    {
+        "prompt": "\"Describe the primary physical characteristics of a typical adult rabbit.\"",
+        "responses": [
+            {
+                "response": "Here are the primary physical characteristics of a typical adult rabbit:\n\n**Body Size and Shape:**\n\n* Adult rabbits typically weigh between 2-12 pounds (1-5.4 kg), depending on the breed.\n* They have a compact, sturdy body with a rounded torso and a relatively short neck.\n* Their body shape is often described as \"cylindrical\" or \" barrel-shaped\".\n\n**Fur and Coat:**\n\n* Rabbits have a thick undercoat of soft, dense fur that provides insulation and protection from the elements.\n* The outer layer of their coat can be long or short, smooth or fluffy, depending on the breed.\n* Many breeds have distinctive color patterns, such as white, brown, gray, black, or agouti (banded) markings.\n\n**Ears:**\n\n* Rabbits have long, mobile ears that are highly sensitive to sound and temperature changes.\n* Their ears are usually rounded at the tips and may be carried forward or sideways when alert or relaxed.\n\n**Legs and Feet:**\n\n* Rabbits have strong, powerful hind legs with large, webbed feet that enable them to jump and move efficiently.\n* Their front legs are shorter and less muscular than their hind legs.\n* The soles of their feet are relatively hairless and provide traction for walking and grasping.\n\n**Mouth and Teeth:**\n\n* Rabbits have a distinctive dental structure, with large incisors (front teeth) that are open-rooted and grow continuously throughout their lives.\n* Their upper incisors are usually longer than their lower ones, and they have prominent canines on either side of the mouth.\n* The lips and muzzle are relatively hairless, with a flat, smooth surface.\n\n**Tail:**\n\n* Rabbits typically have no tail or a very short tail (about 2-3 inches/5-7.5 cm long).\n* Some breeds, such as the English Angora, may have longer tails that require regular trimming to prevent matting and tangling.\n\nOverall, adult rabbits are compact, agile animals with distinctive physical characteristics that reflect their unique biology and behavior.",
+                "scores": [
+                    8.5,
+                    9.5
+                ],
+                "average_score": 9.0
+            },
+            {
+                "response": "A typical adult rabbit is a small to medium-sized mammal with several distinct physical characteristics. Here are some of its primary physical features:\n\n**Body Size and Shape:**\n\n* Adult rabbits typically weigh between 2-4 pounds (0.9-1.8 kg), depending on the breed.\n* They have a compact, streamlined body shape, with a length of approximately 12-15 inches (30-38 cm) from head to rump.\n\n**Fur and Coat:**\n\n* Rabbits have a thick undercoat of soft, fluffy fur that helps keep them warm.\n* The outer coat is longer and more coarse, providing protection against the elements.\n* The color and texture of the fur can vary depending on the breed, but most rabbits have short to medium-length fur.\n\n**Ears:**\n\n* Rabbits have long, slender ears that are very mobile and sensitive to sound.\n* They can rotate their ears independently to pinpoint sounds and detect potential threats.\n\n**Eyes:**\n\n* Adult rabbits typically have large, dark eyes that are positioned on the sides of their head.\n* Their eyes are highly sensitive and can perceive even slight movements.\n\n**Teeth and Jaw:**\n\n* Rabbits have a unique dental structure, with long incisors in both the upper and lower jaws.\n* The incisors are used for gnawing and grinding plant material, while the cheek teeth (premolars and molars) are smaller and more pointed.\n\n**Legs and Feet:**\n\n* Adult rabbits have strong, straight hind legs that allow them to jump long distances with ease.\n* Their front legs are shorter and more compact, but still strong enough for support.\n* Rabbits have large, flat feet with five toes on the hind feet (although the dewclaw is usually removed) and four toes on the front feet.\n\n**Tail:**\n\n* Adult rabbits typically have a relatively short tail, which can be hidden or carried low when they are frightened or sensing danger.\n\nThese physical characteristics enable adult rabbits to thrive in their natural habitats and navigate various environments with agility and efficiency.",
+                "scores": [
+                    8.5,
+                    8.75
+                ],
+                "average_score": 8.625
+            }
+        ],
+        "final_score": 8.8125
+    },
+    {
+        "prompt": "\"Describe an adult rabbit's key physical characteristics, such as rounded body, moderate size, short dense fur, large ears, and distinctive facial markings like whiskers.\"",
+        "responses": [
+            {
+                "response": "An adult rabbit's physical characteristics can be described as follows:\n\n*   **Body Shape**: An adult rabbit typically has a rounded body shape with a slight curvature in the back. The body is relatively compact with a deep chest.\n*   **Size**: Adult rabbits generally range in size from 8 to 12 inches (20-30 cm) in length and weigh between 2 to 4 pounds (1-2 kg).\n*   **Fur**: Rabbits have short, dense fur that provides protection against cold temperatures. The thickness of the coat varies depending on the breed but generally remains relatively short.\n*   **Ears**: Adult rabbits are known for their long ears which are typically larger than their head. They help in dissipating heat and also improve balance during movement.\n*   **Facial Markings**: Rabbits have distinctive facial markings that include whiskers, a pink nose, and expressive eyes. The shape of the face is generally rounded with a short muzzle.\n\nThese characteristics vary slightly across different breeds but are generally common among adult rabbits.",
+                "scores": [
+                    8.5,
+                    8.0
+                ],
+                "average_score": 8.25
+            },
+            {
+                "response": "An adult rabbit's key physical characteristics include:\n\n*   **Body shape**: Rabbits have a rounded body shape, often described as compact and stocky.\n*   **Size**: Adult rabbits can vary in size depending on the breed, but they typically weigh between 2-12 pounds (1-5.4 kilograms) and reach lengths of 10-20 inches (25-50 centimeters).\n*   **Fur**: Rabbits have short, dense fur that helps to keep them warm and protected from the elements.\n*   **Ears**: One of the most distinctive features of a rabbit is its large ears, which are highly sensitive to sound and help the animal detect potential threats.\n*   **Facial markings**: Adult rabbits often display distinctive facial markings, including whiskers. These long, sensitive hairs help the animal navigate its environment and detect changes in air pressure.\n\nThese physical characteristics work together to create a unique appearance that is both endearing and recognizable.",
+                "scores": [
+                    8.5,
+                    8.2
+                ],
+                "average_score": 8.35
+            }
+        ],
+        "final_score": 8.3
+    },
+    {
+        "prompt": "Describe a typical adult rabbit concisely, highlighting its defining features and most prominent physical traits.",
+        "responses": [
+            {
+                "response": "Here's a concise description of a typical adult rabbit:\n\n**Size:** Medium to large (8-12 pounds/3.6-5.4 kg), with some breeds reaching up to 20 pounds (9 kg) or more.\n\n**Physical Traits:**\n\n* **Body Shape:** Rabbits have a compact, sturdy body with a slightly rounded torso and a well-defined waistline.\n* **Ears:** Long, thin ears that are extremely mobile, allowing them to detect even the faintest sounds.\n* **Tail:** Short, usually furry tail (docked in some breeds) that is relatively small compared to their overall size.\n* **Legs and Feet:** Strong hind legs with powerful muscles for jumping, and smaller front legs with long, thin feet ending in sharp claws.\n* **Coat:** Thick, soft fur that can vary greatly in length, color, and texture depending on the breed.\n* **Head Shape:** Distinctive head shape with a short muzzle, prominent jawline, and large, expressive eyes.\n\n**Other Notable Features:**\n\n* A rabbit's teeth grow continuously throughout their life, so they need to chew on wood, hay, or other fibrous materials to keep them trimmed.\n* Their dental structure is designed for cutting and crushing food, with a distinctive \"tear-drop\" shape of the upper incisors.\n\nOverall, adult rabbits are agile, energetic, and remarkably well-adapted to their environment, making them one of the most fascinating small mammals in the world.",
+                "scores": [
+                    8.5,
+                    9.7
+                ],
+                "average_score": 9.1
+            },
+            {
+                "response": "Here is a concise description of a typical adult rabbit:\n\n**Size:** 8-12 inches (20-30 cm) in length, with an average weight of 2-4 pounds (0.9-1.8 kg)\n\n**Body Type:** Stocky and compact, with a rounded body shape and short legs\n\n**Coat:** Thick, soft fur that can be short or long, depending on the breed, with a variety of colors and patterns\n\n**Ears:** Long and erect, pointing forward to detect sounds and balance\n\n**Head Shape:** Heart-shaped, with a prominent forehead and relatively small eyes\n\n**Front Legs:** Strong and sturdy, with sharp claws for digging and grasping\n\n**Hind Legs:** Relatively short but powerful, used for movement and propulsion\n\n**Overall Appearance:** A fluffy, cute, and endearing animal with a distinctive body shape and facial features.",
+                "scores": [
+                    8.5,
+                    9.5
+                ],
+                "average_score": 9.0
+            }
+        ],
+        "final_score": 9.05
+    },
+    {
+        "prompt": "\"Describe the distinctive physical characteristics of a typical adult rabbit in brief detail.\"",
+        "responses": [
+            {
+                "response": "Here are the distinctive physical characteristics of a typical adult rabbit:\n\n* **Body shape**: Rabbits have a compact, elongated body with a curved back and a short neck.\n* **Ears**: Long, triangular-shaped ears that are very mobile and can move independently to detect sounds.\n* **Eyes**: Large, dark eyes positioned on the sides of the head, giving wide peripheral vision.\n* **Fur**: A thick undercoat of soft fur, with longer guard hairs on top, which can be straight or wavy depending on breed.\n* **Legs and feet**: Strong hind legs with powerful muscles for jumping, and long, thin front legs for balance and movement. Feet are oval-shaped with five toes in the front and four in the back.\n* **Tail**: A short, fluffy tail that is often hidden under their fur.\n\nThese physical characteristics help rabbits to thrive in their natural environments and enable them to move quickly, jump high, and detect potential predators.",
+                "scores": [
+                    8.5,
+                    8.2
+                ],
+                "average_score": 8.35
+            },
+            {
+                "response": "Here are the distinctive physical characteristics of a typical adult rabbit:\n\n* **Body size and shape**: Rabbits are relatively small, typically weighing between 2-12 pounds (1-5.4 kg) and measuring 10-20 inches (25-50 cm) in length.\n* **Fur**: Their fur is thick, soft, and velvety, with a wide range of colors including white, black, brown, gray, and various combinations.\n* **Ears**: Rabbits have large, long ears that are highly mobile, allowing them to rotate 180 degrees and detect sounds from all directions.\n* **Eyes**: Their eyes are relatively small compared to their head size, but very expressive and alert.\n* **Nose**: Rabbits have a short, button-like nose with two small nostrils.\n* **Legs and feet**: They have strong, compact hind legs for jumping and powerful front legs for grasping and manipulating objects.\n* **Tail**: Rabbits do not have a long tail like some other animals, but instead have a relatively short, fluffy tuft of fur at the base of their spine.\n\nOverall, rabbits are agile, energetic, and attractive creatures with distinctive physical features that set them apart from other animals.",
+                "scores": [
+                    8.5,
+                    8.6
+                ],
+                "average_score": 8.55
+            }
+        ],
+        "final_score": 8.45
+    },
+    {
+        "prompt": "\"Describe a typical adult domesticated rabbit, focusing on its distinct features, such as size, coat patterns, ear shape, eye color, and any notable traits that set it apart from wild rabbits.\"",
+        "responses": [
+            {
+                "response": "A typical adult domesticated rabbit is a delightful creature with several distinct features that set them apart from their wild counterparts. Here are the key characteristics:\n\n**Size:**\nDomesticated rabbits come in a variety of sizes, but most common breeds range from small to medium-sized. The average weight for an adult domestic rabbit is between 2-4 pounds (0.9-1.8 kg), with some larger breeds reaching up to 6-7 pounds (2.7-3.2 kg).\n\n**Coat Patterns:**\nDomesticated rabbits have a wide range of coat patterns and colors, including solid, agouti, tortoiseshell, and calico. Their coats can be short or long, smooth or fluffy, and may feature distinctive markings such as stripes, dots, or swirls.\n\n**Ear Shape:**\nDomesticated rabbits typically have small to medium-sized ears that are erect, meaning they stand upright on their head. The ear shape can vary depending on the breed, but most domestic rabbits have rounded tips and a relatively short length compared to their body size.\n\n**Eye Color:**\nThe eye color of domesticated rabbits is just as diverse as their coat patterns. Common eye colors include brown, blue, gold, copper, and even heterochromia (different colored eyes). Some breeds are known for their striking eye colors, such as the Chinchilla breed, which features bright pink or red eyes.\n\n**Notable Traits:**\nDomesticated rabbits have several notable traits that distinguish them from wild rabbits:\n\n1. **Temperament:** Domesticated rabbits are generally more docile and friendly than wild rabbits, making them suitable as pets.\n2. **Body shape:** Domestic rabbits often have a shorter body length compared to their width, giving them a more compact appearance.\n3. **Nose shape:** Domestic rabbits typically have a slightly upturned nose, which is different from the longer, straighter noses found in some wild rabbit species.\n4. **Habitat adaptation:** Domesticated rabbits are adapted to living in domestic environments and may be less inclined to burrow or engage in other behaviors typical of wild rabbits.\n\nSome popular breeds of domesticated rabbits include:\n\n* Holland Lop: A small breed with a compact body, short ears, and a variety of coat patterns.\n* Netherland Dwarf: One of the smallest rabbit breeds, known for their tiny size, long ears, and varied coat colors.\n* Californian: A medium-sized breed with a white coat featuring black markings, erect ears, and bright brown eyes.\n\nOverall, domesticated rabbits have undergone significant changes through selective breeding to make them more suitable as pets. Their distinct features, such as size, coat patterns, ear shape, eye color, and temperament, set them apart from their wild ancestors and other rabbit breeds.",
+                "scores": [
+                    8.5,
+                    6.5
+                ],
+                "average_score": 7.5
+            },
+            {
+                "response": "A typical adult domesticated rabbit is a compact, endearing creature with several distinctive features. Here are some of the key characteristics that set them apart from their wild counterparts:\n\n**Size:** Domesticated rabbits typically weigh between 2-12 pounds (1-5.4 kilograms), depending on the breed. They usually reach a length of about 10-18 inches (25-45 centimeters) and stand approximately 6-9 inches (15-23 centimeters) tall at the shoulder.\n\n**Coat patterns:** Domesticated rabbits come in an astonishing array of coat colors, patterns, and textures. Some common breeds include:\n\n* Lop-eared breeds like the Netherland Dwarf or Holland Lop have short, smooth coats with a variety of colors such as black, blue, fawn, and white.\n* Long-haired breeds like the Angora or Jersey Wooly feature soft, fluffy coats that can be solid-colored, patterned, or even multi-colored.\n* Some breeds, like the English Angora or the French Lop, have beautiful white coats with colored patches.\n\n**Ear shape:** Domesticated rabbits often have altered ear shapes compared to their wild ancestors. For example:\n\n* Lop-eared breeds have ears that are dropped or folded downwards towards the face.\n* Ear-less breeds, such as some varieties of dwarf rabbit, have either no external ears or very small ones.\n* Some long-haired breeds may have slightly longer ears due to the coat growth.\n\n**Eye color:** Rabbits typically have large, expressive eyes with a variety of colors and shapes. Common eye colors include:\n\n* Bright brown\n* Deep blue\n* Golden yellow\n* Amber\n\nSome breeds, like the Holland Lop or English Angora, often have more pronounced eye markings, such as white patches or rimmed eyelids.\n\n**Other notable traits:**\n\n* **Temperament:** Domesticated rabbits are known for their friendly and docile nature. They can be quite social and enjoy human interaction.\n* **Behavior:** Unlike wild rabbits, domesticated rabbits tend to be calm and less skittish in the presence of humans.\n* **Habitat adaptation:** Domesticated rabbits have adapted well to living indoors or outdoors in controlled environments, with access to food, water, shelter, and regular veterinary care.\n\n**Key differences from wild rabbits:**\n\n* **Size:** Domesticated rabbits are generally smaller than their wild counterparts.\n* **Coat colors and patterns:** Wild rabbits often have more muted coats, whereas domesticated breeds showcase a stunning array of colors and patterns.\n* **Behavior:** Domesticated rabbits have been bred for over 800 years to be docile and friendly towards humans.",
+                "scores": [
+                    8.7,
+                    8.5
+                ],
+                "average_score": 8.6
+            }
+        ],
+        "final_score": 8.05
+    },
+    {
+        "prompt": "\"Incorporate the distinct features of an adult rabbit's physical attributes, such as size and body shape, alongside their unusually large ears and unique coat patterns, to craft a concise yet vivid description of the animal.\"",
+        "responses": [
+            {
+                "response": "Here is a concise yet vivid description of an adult rabbit:\n\n\"The adult rabbit boasts a sturdy build with a compact, streamlined body, typically measuring between 8-12 inches in length. Its robust physique is often accompanied by a gentle, rounded head and an endearingly small nose. One of its most striking features, however, are its impressively large ears, which can reach up to 4 inches in length, giving the rabbit an air of alertness and agility.\n\nIts coat is equally distinctive, with unique patterns that vary from breed to breed, such as stripes, spots, or a mix of both. The soft, thick fur often has a subtle sheen, with some rabbits sporting a silky texture while others have a more rugged, wiry coat. Whatever the pattern, the adult rabbit's coat is always a testament to its individuality and charm.\"",
+                "scores": [
+                    8.3,
+                    9.3
+                ],
+                "average_score": 8.8
+            },
+            {
+                "response": "Here is a concise yet vivid description of an adult rabbit:\n\n\"Standing approximately 8-12 inches tall at the shoulder, this adult rabbit boasts a sturdy, compact body with a gentle slope to its back. Its ears, astonishingly large and alert, protrude from either side of its head, twitching with every sound as if listening for potential threats. A varied array of coat patterns adorns its plush fur - stripes, dots, or swirling shapes in shades of brown, gray, white, and sometimes even a hint of red - making each individual rabbit a unique masterpiece.\n\nIts overall shape is that of a rounded rectangle, with a slightly longer back end giving it a balanced appearance. Its legs are sturdy and short, ideal for quick bursts of speed as it darts across grassy fields or scurries through dense underbrush in search of the next juicy clover. Overall, this adult rabbit exudes a sense of quiet confidence and agility, ready to spring into action at a moment's notice.\"",
+                "scores": [
+                    8.5,
+                    9.5
+                ],
+                "average_score": 9.0
+            }
+        ],
+        "final_score": 8.9
+    },
+    {
+        "prompt": "Describe the typical external features and physical characteristics of a healthy adult rabbit, focusing on its size, coat, ear shape, and leg structure.",
+        "responses": [
+            {
+                "response": "Here are the typical external features and physical characteristics of a healthy adult rabbit:\n\n**Size:**\n\n* Rabbits come in a variety of sizes, but the average adult rabbit weighs between 2-12 pounds (0.9-5.4 kg) depending on breed.\n* Their length typically ranges from 15 to 28 inches (38 to 71 cm), including their head and body.\n\n**Coat:**\n\n* Rabbits have a thick, soft coat that varies in texture and length depending on the breed.\n* Some breeds have short, smooth coats, while others have longer, more woolly or fluffy coats.\n* The color of the coat can vary greatly, ranging from solid colors like white, black, brown, and gray to complex patterns like tortoiseshell, agouti, and calico.\n\n**Ear Shape:**\n\n* Rabbits have long, mobile ears that are typically triangular in shape and pointed at the tip.\n* The ears are extremely sensitive to sound and can rotate independently of each other to pinpoint sounds more effectively.\n* In some breeds, the ears may be slightly shorter or more rounded than average.\n\n**Leg Structure:**\n\n* Rabbits have strong, slender legs with powerful muscles that enable them to jump and move quickly.\n* Their hind legs are typically longer than their front legs, which allows them to generate more power for jumping.\n* The feet of a rabbit are large and flat, with five toes on each foot (including a dewclaw).\n* The paws have thick pads of skin that help to absorb shock and provide traction.\n\n**Additional Features:**\n\n* Rabbits have a long, thin tail that is often covered in fur, which helps them balance when they're moving.\n* Their eyes are large and round, with a prominent white ring around the iris (the colored part of the eye).\n* The nose is small and pink, and there may be a slight \"whisker\" or tuft of hair on either side of it.\n\n**Breed-Specific Variations:**\n\n* Some breeds, like the Netherland Dwarf, are smaller in size and have shorter ears.\n* Other breeds, like the Flemish Giant, are larger and more muscular, with longer ears and a more rugged coat.\n* Certain breeds may also have distinctive markings or patterns on their coats, such as stripes or patches.\n\nOverall, a healthy adult rabbit should appear alert, active, and well-nourished, with a shiny coat and bright, expressive eyes.",
+                "scores": [
+                    8.7,
+                    8.5
+                ],
+                "average_score": 8.6
+            },
+            {
+                "response": "Here are the typical external features and physical characteristics of a healthy adult rabbit:\n\n**Size:**\n\n* Adult rabbits typically range in weight from 2 to 12 pounds (1 to 5.4 kilograms), depending on their breed.\n* They usually reach their full height at around 6-9 months old, with some larger breeds continuing to grow for up to 18 months.\n\n**Coat:**\n\n* The rabbit's coat is made of two layers: a soft undercoat and a longer, guard hair layer that provides protection from the elements.\n* The color and texture of the coat can vary greatly depending on the breed, with some having short, smooth coats (e.g., Mini Lops) while others have long, woolly coats (e.g., Angoras).\n* Healthy rabbits typically have shiny, well-groomed coats that are free from matting or tangling.\n\n**Ear Shape:**\n\n* Rabbits have relatively large ears compared to their body size.\n* The ear shape can vary depending on the breed, but most adult rabbits have erect ears with a rounded tip.\n* Some breeds, like the Dutch and English Angora, have erect ears that are slightly more pointed than others.\n\n**Leg Structure:**\n\n* Rabbits have strong, powerful legs with long hindlimbs and shorter forelimbs.\n* Their feet are relatively large compared to their body size, with five toes on each foot.\n* The leg structure is designed for hopping and jumping, with strong muscles in the thigh, knee, and ankle joints.\n\n**Additional Characteristics:**\n\n* Rabbits typically have a slightly rounded abdomen, with some breeds having more pronounced bellies than others (e.g., Flemish Giants).\n* Their skin should be smooth and even, without any visible lesions or scars.\n* Healthy rabbits usually have bright, alert eyes and a pink nose.\n\nIt's worth noting that there are over 70 recognized rabbit breeds, each with its unique physical characteristics. These features can vary significantly depending on the specific breed, but the above description provides a general outline of what to expect in a healthy adult rabbit.",
+                "scores": [
+                    7.5,
+                    4.0
+                ],
+                "average_score": 5.75
+            }
+        ],
+        "final_score": 7.175
+    },
+    {
+        "prompt": "\"Describe the key physical attributes of a typical adult rabbit, including its rounded body shape, overall average weight, medium-length coat texture, relatively long ears, and distinctive facial features such as whiskers and nose print pattern.\"",
+        "responses": [
+            {
+                "response": "Here is a detailed description of the key physical attributes of a typical adult rabbit:\n\n**Body Shape:** A healthy adult rabbit typically has a **rounded body shape**, with a plump appearance due to their compact bone structure and substantial muscle mass. Their torso is well-fleshed, but not overly fat.\n\n**Weight:** The average weight of an adult rabbit varies depending on breed and sex. Here are some general guidelines:\n\n* Small breeds (e.g., Netherland Dwarf): 1.5-3.5 kg (3.3-7.7 lbs)\n* Medium breeds (e.g., Holland Lop, Mini Lop): 2.5-4.5 kg (5.5-9.9 lbs)\n* Large breeds (e.g., French Lop, New Zealand): 3.5-6.0 kg (7.7-13.2 lbs)\n\n**Coat Texture:** Rabbits have a **medium-length coat texture**, which means it's not too short and not too long. The length can vary depending on the breed, with some having longer or shorter coats. Their fur is soft, dense, and water-resistant.\n\n**Ears:** One of the distinctive features of rabbits is their **relatively long ears**, which are typically 10-15 cm (4-6 inches) long. These ears help them detect sounds and regulate their body temperature.\n\n**Facial Features:**\n\n* **Whiskers:** Rabbits have a pair of long, stiff whiskers on each side of their face, which help them navigate through dense vegetation and detect potential threats.\n* **Nose Print Pattern:** Each rabbit has a unique nose print pattern, similar to human fingerprints. This distinctive pattern can be used to identify individual rabbits.\n\n**Additional Features:**\n\n* Their eyes are relatively large and expressive, with a prominent eye shape that gives them a wide-eyed appearance.\n* Rabbits have strong hind legs and powerful muscles, which enable them to jump long distances.\n* They typically have white fur on their underside (belly) and may have some coloration or markings on their face, ears, or body.\n\nOverall, a healthy adult rabbit is a compact, rounded creature with distinctive facial features, medium-length coat texture, and relatively long ears.",
+                "scores": [
+                    4.5,
+                    3.5
+                ],
+                "average_score": 4.0
+            },
+            {
+                "response": "Here are the key physical attributes of a typical adult rabbit:\n\n**Body Shape:** Rabbits have a **rounded body shape**, with a compact torso and a short, sturdy neck. Their body is typically proportioned to their size, with a slight tapering towards the hind legs.\n\n**Weight:** On average, an adult rabbit weighs between 2-4 pounds (0.9-1.8 kilograms), depending on breed and sex. Larger breeds can weigh up to 12 pounds (5.4 kilograms) or more.\n\n**Coat Texture:** Rabbits have a medium-length **coat texture**, with individual hairs that are typically around 2-3 inches (5-7.5 cm) long. Their coat is soft, dense, and has a silky sheen.\n\n**Ears:** Rabbits have relatively **long ears**, which can be erect or semi-erect depending on breed and temperament. The ears are usually carried high on the head, with a slight forward tilt.\n\n**Facial Features:**\n\n* **Whiskers**: Rabbits have long, sensitive whiskers that help them navigate in the dark and detect subtle changes in their surroundings.\n* **Nose Print Pattern**: Each rabbit's nose print is unique, featuring a distinctive pattern of ridges and furrows. This can be used to identify individual rabbits.\n\nOther notable physical attributes of adult rabbits include:\n\n* Bright, alert eyes\n* Strong, muscular hind legs and paws\n* Short, compact front legs\n* A robust, well-furred tail\n\nPlease note that these are general characteristics, and individual rabbits may vary depending on their breed, size, age, sex, and overall health.",
+                "scores": [
+                    9.5,
+                    9.5
+                ],
+                "average_score": 9.5
+            }
+        ],
+        "final_score": 6.75
+    },
+    {
+        "prompt": "Describe the typical external features of a healthy adult rabbit, including its size, coat, ears, and limbs.",
+        "responses": [
+            {
+                "response": "A healthy adult rabbit typically exhibits several distinct external features. Here are some of the most notable characteristics:\n\n**Size:**\n\n* Average weight for an adult rabbit is between 2-4 pounds (0.9-1.8 kg), with larger breeds reaching up to 12 pounds (5.4 kg) or more.\n* Length: typically between 16-24 inches (40-60 cm) from the nose to the base of the tail, including the ears.\n\n**Coat:**\n\n* Rabbit coats come in a wide range of colors and patterns, including solid, agouti, and tabby patterns.\n* The coat is usually smooth and short, with some breeds having a longer or thicker coat than others.\n* Rabbits have two layers of fur: an undercoat (known as \"wool\") that provides insulation and a top layer (the guard hairs) that protects the undercoat.\n\n**Ears:**\n\n* Rabbit ears are long and slender, typically reaching 3-5 inches (7.6-12.7 cm) in length.\n* The ears are highly mobile, allowing rabbits to detect sounds from all directions.\n* Ears can be erect or lopped (shortened), depending on the breed.\n\n**Limbs:**\n\n* Rabbits have powerful hind legs and sharp claws for digging and running.\n* Their front paws are smaller and more delicate than their hind paws.\n* Rabbits typically stand with a slight hunch, as they carry most of their body weight on their hindquarters.\n\n**Other notable features:**\n\n* Eyes: large, round, and dark-colored (brown or black).\n* Nose: pinkish-red in color, with moist nostrils for efficient breathing.\n* Teeth: rabbits have continuously growing incisors that need to be trimmed regularly to prevent overgrowth.\n\nRemember that individual characteristics can vary depending on breed, age, sex, and health status. This description represents a general outline of the typical external features of a healthy adult rabbit.",
+                "scores": [
+                    8.5,
+                    9.5
+                ],
+                "average_score": 9.0
+            },
+            {
+                "response": "A healthy adult rabbit typically exhibits several distinctive external features. Here's a description of their common characteristics:\n\n**Size:**\n\n* Adult rabbits can range in size from 2 to 4 pounds (0.9 to 1.8 kilograms) in weight.\n* Their height at the shoulder, also known as the \"withers,\" ranges from 7 to 15 inches (18 to 38 centimeters).\n\n**Coat:**\n\n* Rabbits have a thick, soft coat that can vary in length and texture depending on their breed.\n* Long-haired rabbits have a flowing, silky coat that requires regular grooming to prevent matting.\n* Short-haired rabbits have a dense, smooth coat that is easier to maintain.\n* Some breeds, such as the Angora rabbit, have a long, fluffy coat with a distinctive \"pom-pom\" effect on their rumps.\n\n**Ears:**\n\n* Rabbits typically have long, erect ears that are mobile and highly sensitive to sound.\n* Their ears can be quite large in relation to their head size, which helps them detect potential threats or predators.\n* Some breeds, such as the Holland Lop, may have shorter ears that are more rounded at the tips.\n\n**Limbs:**\n\n* Rabbits have powerful hind legs with long, strong back feet that enable them to jump and hop efficiently.\n* Their front legs are generally shorter and more compact than their hind legs.\n* Rabbits use their sharp claws for digging, grasping, and climbing.\n* The paws of a healthy rabbit should be clean and free from dirt or debris.\n\n**Other notable features:**\n\n* Rabbits have large, dark eyes that are highly expressive and sensitive to light.\n* Their nose is pink and slightly upturned, with two small nostrils.\n* They often exhibit a distinctive \"flick\" or \"twitch\" of their ears and whiskers when alert or excited.\n\nOverall, a healthy adult rabbit should appear well-groomed, with shiny fur, clean eyes, and no signs of illness or injury.",
+                "scores": [
+                    8.5,
+                    8.3
+                ],
+                "average_score": 8.4
+            }
+        ],
+        "final_score": 8.7
+    },
+    {
+        "prompt": "\"Describe a standard domesticated rabbit, focusing on its most notable physical features.\"",
+        "responses": [
+            {
+                "response": "A standard domesticated rabbit is a small to medium-sized mammal with several distinctive physical characteristics. Here are the most notable ones:\n\n**Coat:**\n\n* Domesticated rabbits have thick, soft fur that can be short or long in length.\n* The coat color and pattern vary widely, but common colors include white, brown, black, grey, and combinations of these colors.\n\n**Body shape:**\n\n* Rabbits have a compact, rounded body with a broad chest and strong shoulders.\n* Their torso is roughly the same width as their hindquarters, giving them a characteristic \"apple\" or \"pear\" shape.\n\n**Head:**\n\n* The rabbit's head is relatively small compared to its body, with a short, upturned muzzle.\n* They have large, round eyes that are positioned on either side of their head, giving them excellent peripheral vision.\n* Their ears are long and thin, with the front edges folded back against their skull.\n\n**Size:**\n\n* Adult rabbits typically weigh between 2-12 pounds (1-5.4 kg), depending on breed.\n* They usually reach a length of about 10-18 inches (25-45 cm) from nose to tail, including their ears.\n\n**Legs and paws:**\n\n* Rabbits have strong hind legs with powerful muscles that enable them to jump long distances.\n* Their front legs are shorter and more delicate than their hind legs, but still support the rabbit's weight when it moves forward.\n* Their paws are soft and padded, allowing for quiet movement.\n\n**Other notable features:**\n\n* Domesticated rabbits have a relatively short tail compared to their body size.\n* They often have a distinctive \"nose print\" on their forehead, which is similar in shape to a human fingerprint.\n\nOverall, the standard domesticated rabbit is an attractive and compact animal with a variety of colors and patterns to choose from.",
+                "scores": [
+                    9.5,
+                    8.5
+                ],
+                "average_score": 9.0
+            },
+            {
+                "response": "A standard domesticated rabbit is a mammal that has been bred for thousands of years for its meat, fur, and companionship. Here are the most notable physical features of a typical domesticated rabbit:\n\n**Size:** Domesticated rabbits come in various sizes, but the average size of an adult rabbit is around 8-12 inches (20-30 cm) in length, with a weight range of 2-4 pounds (0.9-1.8 kg).\n\n**Coat and Color:** Rabbits have a thick double coat of fur that helps to keep them warm and protected from the elements. The outer layer is coarse and water-repellent, while the undercoat is soft and dense. Domesticated rabbits come in a wide range of colors and patterns, including solid, agouti (mottled), and self-colored varieties.\n\n**Body Shape:** Rabbits have a compact, athletic body shape, with a long, narrow head, large eyes, and powerful hind legs that enable them to jump and move quickly. They also have strong front legs and sharp claws for digging and burrowing.\n\n**Ears:** Rabbits are known for their distinctive long ears, which can be erect or laid back, depending on the breed and the individual rabbit's personality. Their ears help them to detect sounds and stay alert to potential predators.\n\n**Teeth:** Rabbits have large front teeth (incisors) that are constantly growing, as well as smaller rear teeth that are used for grinding food. These powerful jaws enable them to gnaw and chew through tough plant material.\n\n**Paws and Feet:** Domesticated rabbits have strong, padded paws with sharp claws that help them to dig, climb, and navigate their surroundings.\n\n**Other features:** Rabbits also have a short, stout tail (or none at all in some breeds) and large eyes that are highly sensitive to light. Their ears and nostrils can be very mobile, allowing them to detect even slight changes in their environment.\n\nOverall, the physical characteristics of domesticated rabbits make them well-suited to living in a variety of environments and engaging in various activities, such as burrowing, foraging, and socializing with humans.",
+                "scores": [
+                    8.5,
+                    8.5
+                ],
+                "average_score": 8.5
+            }
+        ],
+        "final_score": 8.75
+    },
+    {
+        "prompt": "Describe an average-sized adult rabbit, highlighting its key visual characteristics such as size, coat length, color pattern, ears, eyes, nose, and distinctive facial markings.",
+        "responses": [
+            {
+                "response": "A typical adult rabbit is a delightful creature with many charming physical features. Here's a description of their average appearance:\n\n**Size:**\nAn adult rabbit typically measures between 20-24 inches (50-60 cm) in length, including their head, body, and tail. They usually weigh between 8-12 pounds (3.5-5.4 kg), although this can vary depending on the breed.\n\n**Coat Length:**\nThe coat of an adult rabbit is relatively short to medium-length, typically around 1-2 inches (2.5-5 cm) in length. However, some breeds, such as Angoras and Lops, have longer coats that require regular grooming.\n\n**Color Pattern:**\nRabbits come in a stunning array of colors and patterns, including solid, agouti, ticked, tortoiseshell, and pointed varieties. Their coat colors can range from pure white to deep browns, grays, and blacks. Some breeds have distinctive markings, such as the Holland Lop's black-ticked fur or the Jersey Wooly's soft, fluffy coat in a variety of colors.\n\n**Ears:**\nRabbits are known for their impressive ears, which can be quite long (up to 3-4 inches/7.5-10 cm) and slender. Their ears are extremely mobile and can rotate independently to detect even the slightest sounds.\n\n**Eyes:**\nAdult rabbits have large, round eyes that are usually dark brown or black in color. Their eyes are positioned on either side of their head, giving them a wide field of vision. The eyes are surrounded by thin skin and can be quite expressive, conveying a range of emotions from curiosity to fear.\n\n**Nose:**\nRabbits have small, pink noses that are highly sensitive. Their nostrils are large and mobile, allowing them to detect scents with great accuracy.\n\n**Facial Markings:**\nSome rabbit breeds have distinctive facial markings, such as:\n\n* The \"stop\" (a slight indentation between the eyes) found on many breeds.\n* The white blaze (a horizontal stripe running from the forehead to the muzzle) seen in some breeds like the Holland Lop and Mini Lop.\n* The black or dark-colored nose markings found on breeds like the New Zealand White and Californian.\n\nOverall, an average-sized adult rabbit is a charming and endearing creature with its unique combination of size, coat length, color pattern, ears, eyes, nose, and facial markings.",
+                "scores": [
+                    8.5,
+                    8.5
+                ],
+                "average_score": 8.5
+            },
+            {
+                "response": "An average-sized adult rabbit typically has a compact and athletic build, with several distinct visual characteristics that set them apart from other animals. Here's a detailed description of the key features:\n\n**Size:** Adult rabbits generally range in size from 20 to 24 inches (50-60 cm) in length, including their tail, and weigh between 8-12 pounds (3.5-5.5 kg). They have a relatively short stature, but are sturdy and well-proportioned.\n\n**Coat Length:** Rabbits have a thick double coat that can vary in length depending on the breed. On average, an adult rabbit's coat is around 2-4 inches (5-10 cm) long, with the longest guard hairs reaching up to 6 inches (15 cm).\n\n**Color Pattern:** The color pattern of a rabbit's coat varies greatly depending on its breed and genetics. Some common colors include:\n\n* Solid: white, black, brown, gray\n* Bi-colored or tri-colored: white with patches of another color, or three distinct colors\n* Agouti: banded or ticked patterns in shades of brown, gray, or black\n\n**Ears:** Rabbits have long, slender ears that are extremely mobile and can rotate 180 degrees. Their ears are usually around 5-6 inches (13-15 cm) long and are often slightly rounded at the tips.\n\n**Eyes:** Rabbits have large, dark eyes that are positioned on either side of their head, giving them exceptional peripheral vision. Their eyes are relatively close-set, but can see almost 360 degrees due to their unique eye structure.\n\n**Nose:** The rabbit's nose is short and pinkish-gray in color, with a distinctive texture that's slightly wrinkled and flexible.\n\n**Distinctive Facial Markings:**\n\n* A black stripe or mark on the forehead, often extending onto the nose\n* A white or light-colored patch on the forehead or nose bridge\n* Darker fur on the head, neck, and shoulders compared to the body\n\nSome breeds, such as the Holland Lop or the Netherland Dwarf, have more pronounced facial markings, including stripes or rosettes on their noses. Other breeds may have different color patterns or distinctive features, such as a lack of facial markings altogether.\n\nKeep in mind that individual rabbits can vary greatly depending on their breed, genetics, and environment. These descriptions provide an average representation, but there's always room for unique characteristics!",
+                "scores": [
+                    9.5,
+                    9.5
+                ],
+                "average_score": 9.5
+            }
+        ],
+        "final_score": 9.0
+    },
+    {
+        "prompt": "\"Combine the key physical features of an average adult rabbit with a concise overview of their typical behaviors, highlighting distinctive traits and habits in brief.\"",
+        "responses": [
+            {
+                "response": "Here's a combination of the physical characteristics and behavioral traits of an average adult rabbit:\n\n**Physical Characteristics:**\n\n* Weight: 8-12 pounds (3.5-5.5 kg)\n* Length: 15-20 inches (38-51 cm) including head and body\n* Height: 10-14 inches (25-35 cm) at the shoulder\n* Lifespan: 8-12 years\n* Fur: Short, smooth coat with a thick undercoat\n* Coat colors: Various combinations of brown, white, black, gray, and tan\n* Ears: Long, pointed ears that are highly mobile\n* Eyes: Large, dark eyes that are positioned on the sides of the head\n* Body shape: Slender body with long legs and strong hindquarters\n\n**Behavioral Traits:**\n\n* **Social structure:** Rabbits are social animals and live in large groups in the wild. They are best kept in pairs or small groups to provide companionship.\n* **Communication:** Rabbits use a range of vocalizations, including grunting, squeaking, and thumping their hind legs to communicate with each other.\n* **Foraging behavior:** Rabbits are herbivores and spend most of their time foraging for food. They have a strong instinct to dig and burrow in search of plant material.\n* **Habitat preference:** Rabbits prefer open spaces with dense vegetation, such as meadows, forests, and grasslands.\n* **Activity level:** Rabbits are crepuscular animals, meaning they are most active at dawn and dusk. They spend most of their day resting or sleeping.\n* **Dominance hierarchy:** In a group setting, rabbits establish a dominance hierarchy with the strongest individuals rising to the top.\n\n**Distinctive Traits and Habits:**\n\n* **Burrowing behavior:** Rabbits have a strong instinct to dig and burrow in search of shelter and protection. They can excavate complex tunnel systems.\n* **Vegetation selection:** Rabbits are selective eaters and prefer certain types of vegetation, such as leafy greens, clover, and grasses.\n* **Flight response:** When threatened, rabbits use their powerful hind legs to jump away from danger, often reaching speeds of up to 25 miles per hour (40 km/h).\n* **Grooming behavior:** Rabbits spend a significant amount of time grooming themselves, using their paws and tongue to remove loose hair and dirt.\n\nOverall, adult rabbits are intelligent, social animals with distinctive physical characteristics and behavioral traits. By understanding these key features, you can provide the best possible care for your pet rabbit.",
+                "scores": [
+                    9.2,
+                    9.5
+                ],
+                "average_score": 9.35
+            },
+            {
+                "response": "**Physical Features:**\n\n*   **Size:** Adult rabbits typically weigh between 2-4 pounds (0.9-1.8 kg) and reach lengths of approximately 15-18 inches (38-45 cm).\n*   **Body Type:** Rabbits have a compact, muscular body with long ears, powerful hind legs, and sharp claws.\n*   **Coat:** Their fur is usually thick, soft, and easy to groom, coming in various colors such as white, brown, black, gray, or combinations of these hues.\n\n**Typical Behaviors:**\n\n1.  **Social Structure:** Rabbits are social creatures that live in groups in the wild but can be kept alone or paired with compatible companions.\n2.  **Diet and Eating Habits:** They have a high metabolism and require frequent feeding to prevent obesity, favoring grasses, vegetables, fruits, hay, and high-quality pellets as part of their balanced diet.\n3.  **Exercise and Activity Level:** Rabbits are naturally energetic animals that require regular exercise to maintain physical fitness and mental well-being, such as running, playing, and engaging in interactive activities.\n4.  **Grooming and Hygiene:** They spend a significant amount of time each day cleaning themselves using their tongue and paws, which helps keep their coat healthy and prevents matting.\n5.  **Escape Artists:** Rabbits are skilled escape artists due to their agility, speed, and curiosity, making proper enclosures with secure doors and hiding places essential for preventing Houdini-like escapes.\n\n**Distinctive Traits and Habits:**\n\n*   **Hopping Ability:** Rabbits use powerful leg muscles and long hind legs to hop efficiently over short distances.\n*   **Fear Response:** They have a natural fear of predators, loud noises, and sudden movements, which can trigger defensive behaviors like freezing or running for cover.\n*   **Curiosity:** Rabbits are naturally curious animals that require mental stimulation through play and exploration.\n\n**Tips for Rabbit Care:**\n\n1.  **Provide Adequate Space:** Ensure the enclosure is spacious enough to accommodate your rabbit's exercise needs and provide hiding places for stress relief.\n2.  **Maintain a Regular Schedule:** Feed, clean, and interact with your rabbit at consistent times each day to promote predictability and stability.\n3.  **Monitor Health:** Keep an eye out for signs of illness or disease, such as lethargy, loss of appetite, or changes in stool quality, and consult a veterinarian if you notice any unusual symptoms.\n\nBy understanding the key physical features and typical behaviors of adult rabbits, you can provide your pet with a happy, healthy life filled with love, care, and attention.",
+                "scores": [
+                    8.5,
+                    9.0
+                ],
+                "average_score": 8.75
+            }
+        ],
+        "final_score": 9.05
+    },
+    {
+        "prompt": "\"Combine the precise depictions of an adult rabbit's typical size and proportions with the detailed descriptions of their oversized ears and distinctive coat textures, to create a concise yet vivid portrayal of this furry mammal's characteristic features in everyday life.\"",
+        "responses": [
+            {
+                "response": "Here's a revised version of the text that combines the key elements you've mentioned:\n\n\"Adult rabbits typically measure between 8-12 inches in length, weighing between 2-4 pounds, with proportions that reflect their robust build. Their ears are oversized and intricately detailed, often stretching up to 3-4 inches long, with velvety soft inner linings and stiff outer edges. The characteristic coat textures of an adult rabbit can vary from a lustrous sheen on the fur's surface to a duller texture on its underside, depending on factors such as age, health, and environment.\n\nIn everyday life, a rabbit's distinctive features become even more apparent. As they hop through their surroundings, their oversized ears swivel independently, attuning them to subtle sounds that might elude other animals. Meanwhile, their coat textures can change color with the seasons, shifting from a thick, winter coat of soft fur to a thinner, more rugged summer coat.\n\nBy combining these precise depictions and detailed descriptions, we can create a vivid and accurate portrait of the adult rabbit in its natural habitat – one that showcases both its impressive size and proportions, as well as the unique characteristics that set it apart from other furry mammals.\"\n\nI made some changes to the text to make it flow better, but I also kept the essential elements you mentioned. Let me know if this meets your requirements or if there's anything else I can help with!",
+                "scores": [
+                    6.7,
+                    2.5
+                ],
+                "average_score": 4.6
+            },
+            {
+                "response": "Here's a rewritten version with some adjustments for clarity and concision:\n\n\"Combine precise depictions of an adult rabbit's typical size and proportions with the unique characteristics of their oversized ears and distinctive coat textures. This blend of details will create a vivid portrayal of the rabbit's key features, showcasing how they stand out in everyday life.\"\n\nI made a few changes to make it more concise while still conveying the idea:\n\n* Simplified some sentence structures for better flow\n* Removed words like \"furry mammal\" which are implied by the context\n* Focused on the most important details and used more active language (e.g., \"stand out in everyday life\" instead of \"characteristic features\")\n\nLet me know if you'd like any further adjustments!",
+                "scores": [
+                    4.5,
+                    4.5
+                ],
+                "average_score": 4.5
+            }
+        ],
+        "final_score": 4.55
+    },
+    {
+        "prompt": "\"Describe a typical domesticated rabbit, highlighting its key physical characteristics.\"",
+        "responses": [
+            {
+                "response": "A typical domesticated rabbit is a small, furry, and endearing mammal that has been selectively bred for thousands of years for desirable traits. Here are the key physical characteristics of a typical domesticated rabbit:\n\n**Size:**\n\n* Weight: 2-4 pounds (0.9-1.8 kg)\n* Length: 12-18 inches (30-45 cm) from nose to base of tail\n* Height: 6-10 inches (15-25 cm) at the shoulder\n\n**Body shape:**\n\n* Compact, muscular body with a deep chest and well-sprung ribs\n* Long, powerful hind legs for jumping and running\n* Short, sturdy front legs for supporting the body\n\n**Coat:**\n\n* Soft, smooth fur that comes in a wide range of colors and patterns, including solid, agouti (banded), and tortoiseshell\n* Coat length can vary from short and smooth to long and luscious\n* Some breeds have distinctive coat characteristics, such as the Angora rabbit's long, fluffy coat or the Jersey Wooly's soft, woolly fur\n\n**Head shape:**\n\n* Small, rounded head with a short, blunt muzzle\n* Large, dark eyes that are full of expression\n* Ears that are small to medium in size and can be erect, semi-erect, or folded against the head\n\n**Other features:**\n\n* Strong, muscular jaws with large incisors (front teeth) for grinding and crushing food\n* Powerful hind legs with strong muscles for jumping and running\n* A short, compact tail that is usually carried low\n\n**Breeds:**\n\nIt's worth noting that there are over 70 recognized breeds of domesticated rabbits, each with its own unique characteristics and features. Some popular breeds include the Holland Lop, Mini Lop, Dwarf Hotot, and Californian.\n\nOverall, a typical domesticated rabbit is a small, adorable animal with a compact body, soft fur, and endearing facial expression.",
+                "scores": [
+                    9.2,
+                    9.5
+                ],
+                "average_score": 9.35
+            },
+            {
+                "response": "A typical domesticated rabbit is a member of the family Leporidae and belongs to various breeds that have been selectively bred for desirable traits. Here are the key physical characteristics:\n\n**Body Type:**\n\n* Rabbits have a compact, muscular body with a broad chest and well-sprung ribs.\n* Their back is usually straight or slightly arched, depending on the breed.\n* The loin (the area between the ribs and hindquarters) is often deep and short.\n\n**Size:**\n\n* Adult rabbits typically weigh between 2-12 pounds (0.9-5.4 kg), depending on the breed.\n* They are generally around 8-18 inches (20-45 cm) in length, including their tail.\n\n**Coat:**\n\n* Domesticated rabbits come in a wide range of coat lengths and textures:\n\t+ Short-haired breeds have a smooth, glossy coat that requires minimal grooming.\n\t+ Long-haired breeds have a soft, flowing coat that needs regular brushing to prevent matting.\n\t+ Some breeds, like the Angora, have extremely long hair that may require daily grooming.\n\n**Color:**\n\n* Rabbits can display an astonishing array of colors and patterns:\n\t+ Solid colors (e.g., white, black, brown)\n\t+ Agouti (banded) coats with different color combinations\n\t+ Tan or golden points on the face, ears, or body\n\n**Head Shape:**\n\n* Domesticated rabbits have a distinctive head shape with the following features:\n\t+ A straight or slightly curved profile\n\t+ Prominent eyes that are often wide apart\n\t+ Small, rounded ears that are usually erect\n\n**Legs and Feet:**\n\n* Rabbits have strong hind legs with powerful muscles for jumping.\n* Their front legs are shorter and more slender than the hind legs.\n* The feet are small and oval-shaped, with five toes (hare-like).\n\n**Tail:**\n\n* Most domesticated rabbits have a long, fluffy tail that they use for balance and communication.\n\nKeep in mind that individual rabbits can vary depending on their breed, genetics, and overall health. However, these characteristics provide a general idea of what to expect from a typical domesticated rabbit.",
+                "scores": [
+                    9.5,
+                    9.5
+                ],
+                "average_score": 9.5
+            }
+        ],
+        "final_score": 9.425
+    },
+    {
+        "prompt": "Describe an average adult rabbit, focusing on its distinctive characteristics and typical physical attributes.",
+        "responses": [
+            {
+                "response": "The average adult rabbit! They're delightful creatures with some unique features that make them easily recognizable. Here's a description of their distinctive characteristics and typical physical attributes:\n\n**Size:** Adult rabbits typically range from 8 to 12 inches (20-30 cm) in height, weighing between 2.5 and 4 pounds (1.1-1.8 kg), depending on the breed.\n\n**Coat:** Rabbits have a thick, soft coat that's usually smooth and even. Their fur can be short or long, straight or wavy, and comes in a wide variety of colors and patterns, including solid, tabby, tortoiseshell, and agouti (a mix of black and white hairs). Some common colors include white, gray, brown, black, and shades of red.\n\n**Body shape:** Rabbits have a compact, rounded body with a slightly longer hindquarters than front legs. Their torso is typically shorter than their back leg length, giving them a distinctive \"hunchback\" appearance.\n\n**Head shape and ears:** The rabbit's head is relatively small compared to its body, with a flat forehead and prominent cheekbones. Their ears are long and pointed, often held forward or slightly angled, which gives them excellent hearing.\n\n**Eyes and whiskers:** Rabbits have large, dark eyes that are often described as \"round\" or \"domed.\" Their whiskers (vibrissae) are particularly distinctive, long and stiff, helping them detect objects in their surroundings.\n\n**Hind legs and paws:** One of the most notable features of rabbits is their powerful hind legs, which allow them to jump and move quickly. Their back legs have strong muscles and can produce a remarkable amount of force when kicking or jumping.\n\n**Front paws and claws:** Rabbits' front paws are smaller than their back legs, with shorter claws that help them grasp and manipulate objects.\n\n**Other distinctive features:**\n\n* A prominent dewlap (skin flap) under the chin\n* Strong, muscular shoulders and back\n* A slight ridge or \"shelf\" on the upper jaw (just below the eye)\n* Well-developed scent glands in their front paws\n\nKeep in mind that individual rabbits can vary depending on breed, age, health, and lifestyle. Some breeds, like the long-haired Angora rabbit, may have more pronounced features due to their specific characteristics.\n\nOverall, an average adult rabbit is a compact, furry creature with striking eyes, powerful hind legs, and distinctive whiskers. Their varied coat colors and patterns add to their charm, making them beloved pets for many people around the world.",
+                "scores": [
+                    9.5,
+                    8.5
+                ],
+                "average_score": 9.0
+            },
+            {
+                "response": "A delightful topic! Here's a description of the average adult rabbit:\n\n**Size:** Adult rabbits typically range from 8 to 12 inches (20-30 cm) in length, with some larger breeds reaching up to 15 inches (38 cm). Their weight varies greatly depending on breed and size, but most adults weigh between 2.5 and 4 pounds (1.1-1.8 kg).\n\n**Body Type:** Rabbits have a compact, athletic body shape, with a sturdy torso, long ears, and strong hind legs. Their fur is soft and thick, often found in various colors and patterns.\n\n**Distinctive Characteristics:**\n\n* **Ears:** Long, thin, and remarkably mobile, rabbit ears are one of their most distinctive features. They can rotate 180 degrees to pinpoint sounds.\n* **Eyes:** Large, expressive eyes are positioned on either side of the head, giving rabbits exceptional peripheral vision. Their eyes are also highly sensitive to light and dark.\n* **Nose:** A short, pointed nose is typically pink or flesh-colored, with a slight scent organ on its tip.\n* **Paws:** Strong, oval-shaped paws have five claws each, used for grasping, digging, and balance.\n\n**Physical Attributes:**\n\n* **Fur Coat:** Rabbits have a double coat of fur, with a soft undercoat and a longer, coarser outer layer. Their coat color can vary greatly between breeds.\n* **Tail:** A short, furry tail is usually present in rabbits, although some breeds may have it docked (cut off) for cosmetic or health reasons.\n* **Legs and Hocks:** Strong hind legs and powerful hocks enable rabbits to jump high and cover considerable distances.\n* **Torso:** The rabbit's torso is relatively long and muscular, allowing them to twist and turn with ease.\n\n**Breed Variations:**\n\nWhile the above description represents an average adult rabbit, different breeds can exhibit distinct physical characteristics. Some popular breeds include:\n\n* Holland Lop: Small, compact rabbits with a sturdy build and short ears.\n* Angora: Large, fluffy rabbits with a beautiful coat and long fur.\n* Netherland Dwarf: Tiny, delicate rabbits with a broad range of colors and patterns.\n\nKeep in mind that individual rabbits can vary depending on their breed, size, age, and living conditions.",
+                "scores": [
+                    8.5,
+                    8.5
+                ],
+                "average_score": 8.5
+            }
+        ],
+        "final_score": 8.75
+    },
+    {
+        "prompt": "\"Outline the key external features of an average adult rabbit in brief detail.\"",
+        "responses": [
+            {
+                "response": "Here are the key external features of an average adult rabbit:\n\n1. **Body shape**: Long, slender body with a rounded head and a distinctive \"stop\" at the base of the ears.\n2. **Ears**: Large, long ears that are erect when alert or relaxed when folded against the head.\n3. **Eyes**: Wide-set eyes that are dark in color (usually brown, black, or golden).\n4. **Nose**: Pink, moist nose with a slightly upturned tip.\n5. **Teeth**: Continuous incisors that grow throughout life, with the upper teeth overlapping the lower ones.\n6. **Legs and feet**: Long legs with strong hindquarters and smaller forelegs. Feet are oval-shaped with five toes on each foot.\n7. **Fur**: Thick, soft coat of fur that can vary in color (e.g., brown, white, black, gray).\n8. **Tail**: Short, thin tail (or \"nubbin\") that is often hidden by the hind legs.\n\nThese are the main external features you'd expect to see on an average adult rabbit.",
+                "scores": [
+                    9.5,
+                    9.6
+                ],
+                "average_score": 9.55
+            },
+            {
+                "response": "Here are the key external features of an average adult rabbit:\n\n**Head:**\n\n* Large, prominent ears\n* Dark circles around the eyes (nictitating membranes)\n* Long, thin nose\n* Short, blunt muzzle\n\n**Body:**\n\n* Stocky, compact body with a rounded abdomen\n* Short, powerful legs\n* Strong, muscular hindquarters\n\n**Fur:**\n\n* Thick, soft fur that is usually longer on the back and shorter on the belly\n* Can vary in color depending on breed (e.g. white, black, brown, grey)\n\n**Size:**\n\n* Average weight: 2-4 kg (4-9 lbs)\n* Average length: 40-50 cm (16-20 inches) from nose to base of tail\n\n**Tail:**\n\n* Short, stumpy tail or no visible tail at all (some breeds have longer tails)\n\nThese are the key external features that can be observed in an average adult rabbit.",
+                "scores": [
+                    8.5,
+                    8.5
+                ],
+                "average_score": 8.5
+            }
+        ],
+        "final_score": 9.025
+    },
+    {
+        "prompt": "\"Describe a typical adult rabbit's key physical characteristics, including its rounded body, average size, short fur, long ears, and facial features like whiskers.\"",
+        "responses": [
+            {
+                "response": "A typical adult rabbit's key physical characteristics include:\n\n*   **Rounded Body:** Rabbits have a plump and compact body shape, with a slight tapering at the hind legs.\n*   **Average Size:** Adult rabbits can grow to an average size of 8-12 inches (20-30 cm) in length, and weigh between 2-4 pounds (0.9-1.8 kg).\n*   **Short Fur:** Rabbits have a short, smooth coat of fur that helps them stay warm in cooler temperatures.\n*   **Long Ears:** One of the most distinctive features of rabbits is their long ears, which can reach up to 5 inches (13 cm) in length and are extremely mobile.\n*   **Facial Features:** Rabbits have a number of facial features that help them navigate their environment, including:\n    *   **Whiskers:** Long, sensitive hairs around the mouth and nose that help detect food, predators, and obstacles.\n    *   **Nose:** A small, pink nose with nostrils that are highly sensitive to smells.\n    *   **Eyes:** Large, dark eyes that are positioned on either side of the head, giving a wide field of vision.",
+                "scores": [
+                    7.9,
+                    9.2
+                ],
+                "average_score": 8.55
+            },
+            {
+                "response": "Here are the key physical characteristics of a typical adult rabbit:\n\n*   **Body shape**: Rabbits have a distinctive, compact body with a rounded shape. This is due to their stocky legs and powerful muscles.\n*   **Size**: Adult rabbits typically range in size from 8 to 12 inches (20-30 cm) in length and weigh between 2.5 and 4 pounds (1.1-1.8 kg).\n*   **Fur**: Rabbits have short, smooth fur that varies in color depending on the breed.\n*   **Ears**: One of a rabbit's most distinctive features is its long ears, which can be up to 7 inches (18 cm) long. These ears are highly mobile and can rotate independently to detect sounds.\n*   **Facial features**: Rabbits have large, prominent eyes and whiskers that help them navigate their surroundings.\n\nEach breed of rabbit has its own unique physical characteristics, but these general traits apply to most adult rabbits.",
+                "scores": [
+                    8.5,
+                    8.5
+                ],
+                "average_score": 8.5
+            }
+        ],
+        "final_score": 8.525
+    }
+]
