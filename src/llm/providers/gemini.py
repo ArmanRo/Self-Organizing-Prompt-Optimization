@@ -1,7 +1,9 @@
+import os
 import requests
 
-from env.env import gemini_api_key
 from llm.base_provider import BaseLLMProvider
+
+gemini_api_key = os.environ.get("GEMINI_API_KEY", "")
 
 
 class GeminiProvider(BaseLLMProvider):
@@ -39,9 +41,9 @@ class GeminiProvider(BaseLLMProvider):
             return generated_text
 
         except requests.exceptions.RequestException as e:
-            print(f"Erreur de requête HTTP: {e}")
+            print(f"HTTP request error: {e}")
             if 'response' in locals() and response.text:
-                 print(f"Réponse d'erreur de l'API: {response.text}")
+                print(f"API error response: {response.text}")
             return ""
 
 
@@ -55,5 +57,5 @@ class GeminiProvider(BaseLLMProvider):
             print(prompts)
 
 
-    def embed(self):
+    def embed(self, text: str) -> list[float]:
         pass
