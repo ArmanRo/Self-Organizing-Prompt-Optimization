@@ -24,7 +24,7 @@ IMPROVE_SYSTEM_PROMPT = (
     "Your modifications must be small, preserve the original intent, "
     "and increase clarity, precision, or usefulness. "
     "Always stay focused on the main topic defined by the user question. "
-    "Never invent new sub-tasks."
+    "Never invent new sub-tasks. "
     "Just give the prompt without any explanation."
 )
 
@@ -47,7 +47,7 @@ MUTATE_SYSTEM_PROMPT = (
     "Apply only a *small local mutation* to the prompt: "
     "replace a word, rephrase a clause, or add minor clarification. "
     "Keep the meaning and structure unchanged. "
-    "Always ensure the mutated prompt remains closely related to the main user question."
+    "Always ensure the mutated prompt remains closely related to the main user question. "
     "Just give the prompt without any explanation."
 )
 
@@ -72,7 +72,7 @@ CROSSOVER_SYSTEM_PROMPT = (
     "of the two provided high-performing prompts (Parent A and Parent B) "
     "into a single, novel, and highly effective prompt (Child Prompt). "
     "The new prompt must target the main user question and retain the "
-    "high quality demonstrated by the parents."
+    "high quality demonstrated by the parents. "
     "Just give the prompt without any explanation."
 )
 
@@ -106,19 +106,3 @@ Do NOT add text, comments, or punctuation.
 
 
 
-# Others
-"""
-
-Describe a rabbit. bicycle sunflower
-
-
-Explain how rainbows form.
-Vérifier présence de mots-clés : “light”, “refraction”, “droplets”
-
-What is Darwinism ?
-
-
-If Alice is older than Bob and Bob is older than Carol, who is youngest?
-What is the sum of all even numbers between 1 and 10?
-
-"""

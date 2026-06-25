@@ -75,7 +75,6 @@ class PromptPopulation:
 
         elites = parents[:n_elites]
         for e in elites:
-            print(e.text)
             new_population.append(PromptCandidate(e.text))
 
         new_population = new_population[:generation_size]
