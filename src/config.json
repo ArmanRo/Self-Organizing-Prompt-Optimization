@@ -1,5 +1,6 @@
 {
     "llm_provider": "ollama",
+    "model": "llama3.1:8b",
     "question": "In a few words, explain how rainbows form.",
     "prompts_amount": 20,
     "evaluation_criteria": "accuracy, language, and level of detail",

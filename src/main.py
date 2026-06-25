@@ -10,15 +10,16 @@ def main():
         config = json.load(f)
 
     llm_provider = config["llm_provider"]
+    model = config.get("model")
     question = config["question"]
     prompts_amount = config["prompts_amount"]
     evaluation_criteria = config["evaluation_criteria"]
     evaluator = config["evaluator"]
     max_generations = config["max_generations"]
-    
-    
+
     ga = GeneticAlgorithm(
         llm_provider=llm_provider,
+        model=model,
         question=question,
         prompts_amount=prompts_amount,
         evaluation_criteria=evaluation_criteria,

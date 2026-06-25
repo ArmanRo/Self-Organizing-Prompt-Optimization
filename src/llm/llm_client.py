@@ -5,12 +5,12 @@ from llm.providers.ollama import OllamaProvider
 
 
 class LLMClient(BaseLLMProvider):
-    def __init__(self, provider: str):
-        self.provider = self._init_provider(provider)
+    def __init__(self, provider: str, model: str = None):
+        self.provider = self._init_provider(provider, model)
 
-    def _init_provider(self, provider: str) -> BaseLLMProvider:
+    def _init_provider(self, provider: str, model: str = None) -> BaseLLMProvider:
         if provider == "ollama":
-            return OllamaProvider()
+            return OllamaProvider(model) if model else OllamaProvider()
         #elif provider == "gemini":
         #    return GeminiProvider()
         # elif provider == "openai":

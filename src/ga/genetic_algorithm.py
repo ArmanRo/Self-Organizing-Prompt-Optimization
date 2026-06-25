@@ -1,4 +1,5 @@
 import json
+import os
 import statistics
 
 from ga.evaluation_llm import LLMEvaluator
@@ -8,13 +9,13 @@ from .prompt_population import PromptPopulation
 
 
 class GeneticAlgorithm:
-    def __init__(self, llm_provider: str, question: str, prompts_amount: int, evaluation_criteria, evaluator: str, max_generations: int):
-        self.llm = LLMClient(provider=llm_provider)
+    def __init__(self, llm_provider: str, question: str, prompts_amount: int, evaluation_criteria, evaluator: str, max_generations: int, model: str = None):
+        self.llm = LLMClient(provider=llm_provider, model=model)
         self.question = question
         self.prompts_amount = prompts_amount
         self.evaluation_criteria = evaluation_criteria
         if evaluator == "llm":
-            self.evaluator = LLMEvaluator(LLMClient(provider=llm_provider))
+            self.evaluator = LLMEvaluator(LLMClient(provider=llm_provider, model=model))
         else:
             self.evaluator = LLMEvaluator(self.llm)
         self.max_generations = max_generations
@@ -23,6 +24,7 @@ class GeneticAlgorithm:
     @staticmethod
     def save_prompts_to_json(prompts, filename: str = "initial_prompts.json") -> None:
         folder = "results/v3/"
+        os.makedirs(folder, exist_ok=True)
         with open(folder + filename, "w", encoding="utf-8") as f:
             json.dump(prompts, f, ensure_ascii=False, indent=4)
 
