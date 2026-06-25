@@ -4,16 +4,12 @@ from llm.base_provider import BaseLLMProvider
 
 
 class OllamaProvider(BaseLLMProvider):
-    def __init__(self, model="mistral"):
-        assert model in (
-            "mistral",
-            "ollama",
-        ), "`model` argument can either be `mistral` or `ollama`"
+    def __init__(self, model="mistral:7b-instruct-q4_K_M"):
         self.model = model
 
     def generate(self, prompt: str, max_tokens: int = None, temperature: float = 0.7) -> str:
         data = {
-            "model": "mistral:7b-instruct-q4_K_M", 
+            "model": self.model,
             "prompt": prompt, 
             "stream": False, 
             "num_thread": 4,
@@ -44,14 +40,8 @@ class OllamaProvider(BaseLLMProvider):
             else:
                 cleaned.append(line)
 
-        print(cleaned)
+        return cleaned[:amount]
 
-        if len(cleaned) == amount:
-            return cleaned
-        else:
-            print(cleaned)
-            return cleaned
-
-    def embed(self):
-            pass
+    def embed(self, text: str) -> list[float]:
+        pass
     
