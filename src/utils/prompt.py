@@ -25,6 +25,7 @@ IMPROVE_SYSTEM_PROMPT = (
     "and increase clarity, precision, or usefulness. "
     "Always stay focused on the main topic defined by the user question. "
     "Never invent new sub-tasks."
+    "Just give the prompt without any explanation."
 )
 
 IMPROVE_USER_PROMPT_TEMPLATE = (
@@ -47,6 +48,7 @@ MUTATE_SYSTEM_PROMPT = (
     "replace a word, rephrase a clause, or add minor clarification. "
     "Keep the meaning and structure unchanged. "
     "Always ensure the mutated prompt remains closely related to the main user question."
+    "Just give the prompt without any explanation."
 )
 
 MUTATE_USER_PROMPT_TEMPLATE = (
@@ -71,6 +73,7 @@ CROSSOVER_SYSTEM_PROMPT = (
     "into a single, novel, and highly effective prompt (Child Prompt). "
     "The new prompt must target the main user question and retain the "
     "high quality demonstrated by the parents."
+    "Just give the prompt without any explanation."
 )
 
 CROSSOVER_USER_PROMPT_TEMPLATE = (
@@ -111,6 +114,8 @@ Describe a rabbit. bicycle sunflower
 
 Explain how rainbows form.
 Vérifier présence de mots-clés : “light”, “refraction”, “droplets”
+
+What is Darwinism ?
 
 
 If Alice is older than Bob and Bob is older than Carol, who is youngest?

@@ -20,10 +20,10 @@ class GeneticAlgorithm:
         self.max_generations = max_generations
         self.gen = 0
 
-
     @staticmethod
     def save_prompts_to_json(prompts, filename: str = "initial_prompts.json") -> None:
-        with open(filename, "w", encoding="utf-8") as f:
+        folder = "results/v3/"
+        with open(folder + filename, "w", encoding="utf-8") as f:
             json.dump(prompts, f, ensure_ascii=False, indent=4)
 
 

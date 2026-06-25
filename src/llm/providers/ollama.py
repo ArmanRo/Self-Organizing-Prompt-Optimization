@@ -30,13 +30,27 @@ class OllamaProvider(BaseLLMProvider):
 
     def generate_prompts(self, prompt: str, amount: int) -> list[str]:
         raw_prompts = self.generate(prompt)
-        prompts = raw_prompts.split("\n")
-        prompts = [p for p in prompts if p.strip()]
-        cleaned = [s.split('.', 1)[1].lstrip() for s in prompts]
+        lines = raw_prompts.split("\n")
+
+        cleaned = []
+        for line in lines:
+            line = line.strip()
+            
+            if not line:
+                continue
+
+            if line[0].isdigit() and "." in line:
+                cleaned.append(line.split(".", 1)[1].strip())
+            else:
+                cleaned.append(line)
+
+        print(cleaned)
+
         if len(cleaned) == amount:
             return cleaned
         else:
             print(cleaned)
+            return cleaned
 
     def embed(self):
             pass
