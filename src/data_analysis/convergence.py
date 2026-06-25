@@ -1,3 +1,4 @@
+import argparse
 import json
 import os
 import matplotlib.pyplot as plt
@@ -49,8 +50,6 @@ def compute_convergence_curve(version_path, num_generations=30):
     return convergence_scores
 
 
-import matplotlib.pyplot as plt
-
 def plot_convergence_curve(scores_dict, title=None, ylabel="Fitness score"):
     plt.figure()
 
@@ -87,19 +86,48 @@ def save_convergence_curve(scores, output_path, title=None):
     plt.close()
 
 
-best_version_path = "../results_darwinism/v2"
-version_path = "../results_darwinism/v2"
+def main():
+    parser = argparse.ArgumentParser(
+        description="Plot the convergence curve of a genetic algorithm run."
+    )
+    parser.add_argument(
+        "results_path",
+        nargs="?",
+        default="../results/v1",
+        help="Path to a results folder containing gen_*.json files "
+             "(default: ../results/v1, relative to this script).",
+    )
+    parser.add_argument(
+        "--generations",
+        type=int,
+        default=30,
+        help="Number of generations to read (default: 30).",
+    )
+    parser.add_argument(
+        "--title",
+        default="Convergence Curve",
+        help="Title for the plot.",
+    )
+    parser.add_argument(
+        "--save",
+        metavar="OUTPUT_PNG",
+        default=None,
+        help="If set, save the curve to this path instead of showing it.",
+    )
+    args = parser.parse_args()
 
-best_scores = compute_best_score_curve(version_path)
-scores = compute_convergence_curve(version_path)
+    scores = compute_convergence_curve(args.results_path, args.generations)
 
-plot_convergence_curve({
-        # "Best prompt": best_scores,
-        "Average population": scores
-    }, title="Convergence Curve – Darwinism (v2)")
+    if args.save:
+        os.makedirs(os.path.dirname(args.save) or ".", exist_ok=True)
+        save_convergence_curve(scores, output_path=args.save, title=args.title)
+        print(f"Saved convergence curve to {args.save}")
+    else:
+        plot_convergence_curve(
+            {"Average population": scores},
+            title=args.title,
+        )
 
-save_convergence_curve(
-    scores,
-    output_path="graphs/darwinism_v2_convergence.png",
-    title="Convergence Curve – Darwinism (v2)"
-)
+
+if __name__ == "__main__":
+    main()
