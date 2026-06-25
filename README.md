@@ -37,22 +37,29 @@ The prompts are sorted by score. The next generation is created using high-perfo
 This cycle repeats for a specified number of generations (`max_generations`), gradually converging on the most effective prompt for the task.
 
 ## Installation
-### Clone the repository:
+### 1. Install Ollama
+Download and install Ollama from [https://ollama.com](https://ollama.com), then pull a model:
+```bash
+ollama pull llama3.1:8b
+```
+> Any model supported by Ollama will work. Update `"model"` in `src/config.json` to match the one you pulled.
+
+### 2. Clone the repository:
 ```bash
 git clone git@github.com:ArmanRo/Self-Organizing-Prompt-Optimization.git 
 git clone https://github.com/ArmanRo/Self-Organizing-Prompt-Optimization.git
 ```
-### Navigate into the project directory:
+### 3. Navigate into the project directory:
 ```bash
 cd Self-Organizing-Prompt-Optimization
 ```
-### Install dependencies:
+### 4. Install Python dependencies:
 ```bash
 pip install -r requirements.txt
 ```
 
 ## Usage
-Run the main program to start generating prompts:
+Make sure Ollama is running (`ollama serve`), then start the program:
 ```bash
 python src/main.py
 ```
