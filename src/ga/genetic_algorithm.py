@@ -1,15 +1,19 @@
 import json
 import os
 import statistics
+from pathlib import Path
 
 from ga.evaluation_llm import LLMEvaluator
 from llm.llm_client import LLMClient
 from utils.prompt import build_initial_prompt
 from .prompt_population import PromptPopulation
 
+# Run outputs are anchored to src/results/ regardless of the current working directory.
+RESULTS_ROOT = Path(__file__).resolve().parent.parent / "results"
+
 
 class GeneticAlgorithm:
-    def __init__(self, llm_provider: str, question: str, prompts_amount: int, evaluation_criteria, evaluator: str, max_generations: int, model: str = None):
+    def __init__(self, llm_provider: str, question: str, prompts_amount: int, evaluation_criteria, evaluator: str, max_generations: int, model: str = None, output_version: str = "v1"):
         self.llm = LLMClient(provider=llm_provider, model=model)
         self.question = question
         self.prompts_amount = prompts_amount
@@ -19,13 +23,12 @@ class GeneticAlgorithm:
         else:
             self.evaluator = LLMEvaluator(self.llm)
         self.max_generations = max_generations
+        self.results_dir = RESULTS_ROOT / output_version
         self.gen = 0
 
-    @staticmethod
-    def save_prompts_to_json(prompts, filename: str = "initial_prompts.json") -> None:
-        folder = "results/v3/"
-        os.makedirs(folder, exist_ok=True)
-        with open(folder + filename, "w", encoding="utf-8") as f:
+    def save_prompts_to_json(self, prompts, filename: str = "initial_prompts.json") -> None:
+        os.makedirs(self.results_dir, exist_ok=True)
+        with open(self.results_dir / filename, "w", encoding="utf-8") as f:
             json.dump(prompts, f, ensure_ascii=False, indent=4)
 
 

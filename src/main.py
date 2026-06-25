@@ -16,6 +16,7 @@ def main():
     evaluation_criteria = config["evaluation_criteria"]
     evaluator = config["evaluator"]
     max_generations = config["max_generations"]
+    output_version = config.get("output_version", "v1")
 
     ga = GeneticAlgorithm(
         llm_provider=llm_provider,
@@ -24,7 +25,8 @@ def main():
         prompts_amount=prompts_amount,
         evaluation_criteria=evaluation_criteria,
         evaluator=evaluator,
-        max_generations=max_generations
+        max_generations=max_generations,
+        output_version=output_version
     )
     ga.run()
 
