@@ -15,9 +15,9 @@ S.O.S. is an experimental AI system designed to automate prompt generation and e
 - `Multi-agent architecture`
 
 ## How It Works: The Genetic Optimization Cycle
-S.O.S. uses a Genetic Algorithm to continuously refine prompts for maximum effectiveness against a specified criteria.
+S.O.S. uses a Genetic Algorithm to continuously refine prompts for maximum effectiveness against specified criteria.
 
-### 1. Initial Population (Génération 0)
+### 1. Initial Population (Generation 0)
 The system starts by generating a set of diverse initial prompts based on the user's main question, leveraging a highly structured meta-prompt to ensure variety (tone, style, and perspective).
 
 ### 2. Evaluation
@@ -29,7 +29,7 @@ b.  **Scoring:** An impartial LLM Evaluator scores each response based on the de
 The prompts are sorted by score. The next generation is created using high-performing prompts (parents) through the following genetic operations, determined by the configuration ratios (`elite_ratio`, `improve_ratio`, etc.):
 
 * **Elite (Elitism):** The best prompts are copied directly to the next generation, preserving the highest performance found so far.
-* **Improvement (Mutation de haut niveau):** A single parent prompt is submitted to a **Prompt Optimizer LLM** to generate a slightly *better* version.
+* **Improvement (High-level Mutation):** A single parent prompt is submitted to a **Prompt Optimizer LLM** to generate a slightly *better* version.
 * **Crossover:** Two high-performing parent prompts are combined by a **Crossover LLM** to create a novel child prompt, fusing their best characteristics.
 * **Mutation:** A small, local change (typo fix, word replacement) is applied to a prompt to maintain diversity and explore nearby solutions.
 
@@ -54,5 +54,5 @@ pip install -r requirements.txt
 ## Usage
 Run the main program to start generating prompts:
 ```bash
-python main.py
+python src/main.py
 ```

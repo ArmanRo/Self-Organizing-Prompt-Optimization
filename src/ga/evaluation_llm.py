@@ -20,5 +20,5 @@ class LLMEvaluator:
         match = re.search(r"(\d+(?:\.\d+)?)", cleaned_response) 
         if match:
             return float(match.group(1)) 
-        print(f"ATTENTION: Aucun score valide trouvé dans la réponse LLM. Score par défaut de 0.0.")
+        print("WARNING: No valid score found in the LLM response. Defaulting to 0.0.")
         return 0.0 

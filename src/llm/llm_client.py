@@ -16,7 +16,7 @@ class LLMClient(BaseLLMProvider):
         # elif provider == "openai":
         #     return OpenAIProvider()
         else:
-            raise ValueError(f"Fournisseur inconnu : {provider}")
+            raise ValueError(f"Unknown provider: {provider}")
 
     def generate(self, prompt: str, max_tokens: int = None) -> str:
         return self.provider.generate(prompt, max_tokens)
