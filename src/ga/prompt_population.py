@@ -5,14 +5,23 @@ from llm.llm_client import LLMClient
 from utils.prompt import build_improvement_prompt, build_mutation_prompt, build_crossover_prompt
 
 
+DEFAULT_RATIOS = {
+    "elite_ratio": 0.2,
+    "improve_ratio": 0.35,
+    "mutate_ratio": 0.35,
+    "crossover_ratio": 0.1,
+}
+
+
 class PromptPopulation:
-    def __init__(self, prompts, question: str, llm: LLMClient = None):
+    def __init__(self, prompts, question: str, llm: LLMClient = None, ratios: dict = None):
         self.prompts = [
             p if isinstance(p, PromptCandidate) else PromptCandidate(p)
             for p in prompts
         ]
         self.question = question
         self.llm = llm
+        self.ratios = {**DEFAULT_RATIOS, **(ratios or {})}
 
 
     def sort(self, scores):    
@@ -39,11 +48,11 @@ class PromptPopulation:
 
     def generate_next_population(self):
         generation_size = len(self.prompts)
-        elite_ratio = 0.2
-        improve_ratio = 0.35
-        mutate_ratio = 0.35
-        crossover_ratio = 0.1
-        
+        elite_ratio = self.ratios["elite_ratio"]
+        improve_ratio = self.ratios["improve_ratio"]
+        mutate_ratio = self.ratios["mutate_ratio"]
+        crossover_ratio = self.ratios["crossover_ratio"]
+
 
         parents = self.prompts
 

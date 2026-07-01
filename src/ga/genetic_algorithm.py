@@ -13,7 +13,7 @@ RESULTS_ROOT = Path(__file__).resolve().parent.parent / "results"
 
 
 class GeneticAlgorithm:
-    def __init__(self, llm_provider: str, question: str, prompts_amount: int, evaluation_criteria, evaluator: str, max_generations: int, model: str = None, output_version: str = "v1"):
+    def __init__(self, llm_provider: str, question: str, prompts_amount: int, evaluation_criteria, evaluator: str, max_generations: int, model: str = None, output_version: str = "v1", n_samples: int = 2, n_judgments: int = 2, ga_ratios: dict = None):
         self.llm = LLMClient(provider=llm_provider, model=model)
         self.question = question
         self.prompts_amount = prompts_amount
@@ -24,6 +24,9 @@ class GeneticAlgorithm:
             self.evaluator = LLMEvaluator(self.llm)
         self.max_generations = max_generations
         self.results_dir = RESULTS_ROOT / output_version
+        self.n_samples = n_samples
+        self.n_judgments = n_judgments
+        self.ga_ratios = ga_ratios
         self.gen = 0
 
     def save_prompts_to_json(self, prompts, filename: str = "initial_prompts.json") -> None:
@@ -83,13 +86,13 @@ class GeneticAlgorithm:
 
     def run(self):
         initial_prompts = self.generate_initial_prompts()
-        population = PromptPopulation(initial_prompts, self.question, self.llm)
+        population = PromptPopulation(initial_prompts, self.question, self.llm, ratios=self.ga_ratios)
 
         for gen in range(self.max_generations):
             scores, evaluation_details = self.evaluate_population(
                 population,
-                n_samples=2,
-                n_judgments=2
+                n_samples=self.n_samples,
+                n_judgments=self.n_judgments
             )
 
             filename = f"gen_{gen}.json"
