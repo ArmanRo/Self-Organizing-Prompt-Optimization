@@ -1,21 +1,21 @@
-# Self-Organizing Prompt Optimization (S.O.S.)
+# Self-Organizing Prompt Optimization (SOPO)
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
 ![Python](https://img.shields.io/badge/Python-3.10%2B-blue.svg)
 
-S.O.S. is an experimental system that **evolves better prompts automatically** using a genetic algorithm. Instead of hand-tuning a prompt, you give it a question and an evaluation criteria, and it breeds a population of prompts across generations — keeping the best, improving, mutating, and crossing them over — until it converges on the most effective prompt for the task.
+SOPO is an experimental system that **evolves better prompts automatically** using a genetic algorithm. Instead of hand-tuning a prompt, you give it a question and evaluation criteria, and it breeds a population of prompts across generations — keeping the best, improving, mutating, and crossing them over — until it converges on the most effective prompt for the task.
 
 All generation and evaluation is done locally through [Ollama](https://ollama.com), so no API keys or cloud calls are required.
 
 ## Results
 
-A genetic algorithm run on the question *"In a few words, explain how rainbows form"* — the average population fitness climbs and converges across generations:
+A genetic algorithm run optimizing prompts for the *"What is Darwinism?"* task — the average population fitness climbs from ~6.7 to ~9/10 within a few generations, then converges:
 
 ![Convergence curve](src/data_analysis/graphs/darwinism_v3_convergence.png)
 
 ## How It Works: The Genetic Optimization Cycle
 
-S.O.S. uses a Genetic Algorithm to continuously refine prompts for maximum effectiveness against specified criteria.
+SOPO uses a Genetic Algorithm to continuously refine prompts for maximum effectiveness against specified criteria.
 
 ### 1. Initial Population (Generation 0)
 The system starts by generating a set of diverse initial prompts based on the user's main question, leveraging a highly structured meta-prompt to ensure variety (tone, style, and perspective).
