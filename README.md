@@ -83,15 +83,30 @@ All run parameters live in [`src/config.json`](src/config.json):
 | --- | --- |
 | `llm_provider` | LLM backend to use (currently `ollama`). |
 | `model` | Ollama model name, e.g. `llama3.1:8b`. |
+| `evaluator_model` | Optional separate model used to score prompts. `null` = the main model judges its own outputs; set another model name to use an independent judge (reduces self-evaluation bias). |
 | `output_version` | Subfolder name for this run's outputs, saved under `src/results/` (e.g. `v1`). |
 | `question` | The task/question prompts are being optimized for. |
 | `prompts_amount` | Population size (number of prompts per generation). |
 | `evaluation_criteria` | Natural-language criteria the evaluator scores against. |
-| `evaluator` | Evaluation strategy (`llm`). |
 | `max_generations` | Number of generations to evolve. |
 | `evaluation_n_samples` | Responses generated per prompt during evaluation. |
 | `evaluation_n_judgments` | Judgments averaged per response. |
 | `genetic_algorithm` | Ratios for `elite`, `improve`, `mutate`, and `crossover` operations. |
+
+### Optional: use a separate model as evaluator
+
+By default the same model both generates the responses and scores them. Because a model tends to over-rate its own outputs (*self-evaluation bias*), you can assign the scoring to a **different, independent model**:
+
+1. Pull a second model with Ollama:
+   ```bash
+   ollama pull mistral
+   ```
+2. Set it as the judge in [`src/config.json`](src/config.json):
+   ```json
+   "evaluator_model": "mistral"
+   ```
+
+The generator keeps using `model`, while every score is now produced by `evaluator_model`. Leave `evaluator_model` as `null` to keep the default (the main model judges its own outputs).
 
 ## Usage
 
