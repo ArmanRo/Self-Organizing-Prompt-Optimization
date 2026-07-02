@@ -8,18 +8,18 @@ from llm.llm_client import LLMClient
 from utils.prompt import build_initial_prompt
 from .prompt_population import PromptPopulation
 
-# Run outputs are anchored to src/results/ regardless of the current working directory.
+
 RESULTS_ROOT = Path(__file__).resolve().parent.parent / "results"
 
 
 class GeneticAlgorithm:
-    def __init__(self, llm_provider: str, question: str, prompts_amount: int, evaluation_criteria, evaluator: str, max_generations: int, model: str = None, output_version: str = "v1", n_samples: int = 2, n_judgments: int = 2, ga_ratios: dict = None):
+    def __init__(self, llm_provider: str, question: str, prompts_amount: int, evaluation_criteria, max_generations: int, model: str = None, output_version: str = "v1", n_samples: int = 2, n_judgments: int = 2, ga_ratios: dict = None, evaluator_model: str = None):
         self.llm = LLMClient(provider=llm_provider, model=model)
         self.question = question
         self.prompts_amount = prompts_amount
         self.evaluation_criteria = evaluation_criteria
-        if evaluator == "llm":
-            self.evaluator = LLMEvaluator(LLMClient(provider=llm_provider, model=model))
+        if evaluator_model:
+            self.evaluator = LLMEvaluator(LLMClient(provider=llm_provider, model=evaluator_model))
         else:
             self.evaluator = LLMEvaluator(self.llm)
         self.max_generations = max_generations

@@ -14,7 +14,7 @@ def main():
     question = config["question"]
     prompts_amount = config["prompts_amount"]
     evaluation_criteria = config["evaluation_criteria"]
-    evaluator = config["evaluator"]
+    evaluator_model = config.get("evaluator_model")
     max_generations = config["max_generations"]
     output_version = config.get("output_version", "v1")
     n_samples = config.get("evaluation_n_samples", 2)
@@ -27,12 +27,12 @@ def main():
         question=question,
         prompts_amount=prompts_amount,
         evaluation_criteria=evaluation_criteria,
-        evaluator=evaluator,
         max_generations=max_generations,
         output_version=output_version,
         n_samples=n_samples,
         n_judgments=n_judgments,
-        ga_ratios=ga_ratios
+        ga_ratios=ga_ratios,
+        evaluator_model=evaluator_model
     )
     ga.run()
 
